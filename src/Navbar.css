@@ -1,0 +1,17 @@
+/* Stil untuk layar desktop (lebar lebih dari 768px) */
+@media (min-width: 768px) {
+    .menu-icon {
+        display: none; /* Sembunyikan tombol menu pada layar desktop */
+    }
+
+    .desktop-nav {
+        display: block; /* Tampilkan navigasi desktop */
+    }
+}
+
+/* Stil untuk layar mobile (lebar kurang dari 768px) */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block; /* Tampilkan tombol menu pada layar mobile */
+    }
+}

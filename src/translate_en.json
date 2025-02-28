@@ -1,0 +1,257 @@
+{
+    "typewriter": {
+         "text": "Best Product"
+    },
+    "button-header": {
+         "text": "More"
+    },
+    "about": {
+         "text": "Our Company"
+    },
+    "artikel_1": {
+          "text": "Health Benefits of Tamarind: From Lowering Cholesterol to Better Digestion"
+    },
+    "list-company": {
+     "text": "Welcome to the world of natural flavors with Cap Gunung Tamarind, a trusted provider of Tamarind with a brand known for its superior quality and guaranteed special and maintained quality. As an official supplier and distributor , we present a variety of Tamarind Seeds and Meat from the Cap Gunung brand, ensuring an authentic and unmatched taste experience, and providing the best unforgettable special satisfaction. Our products come from the best quality, providing a distinctive touch and freshness from nature .Our advantage lies not only in our wide product variety, but also in the availability of Tamarind in raw materials in sack sizes for industrial needs. With the Cap Gunung brand, we are committed to providing solutions that high quality and reliable, and supports the sustainability of our customers' businesses. Find a satisfying shopping experience and true taste satisfaction with Asam Jawa Cap Gunung."
+     },
+     "testimoni": {
+          "text": "Our Product"
+     },
+     "produk-1": {
+          "text": "Javanese Tamarind 75 Grams Cap Gunung"
+     },
+     "deskripsi-1": {
+          "text": "&nbsp;&nbsp;&nbsp;&nbsp;Java Tamarind 75 grams is a natural product that contains high quality tamarind seeds. This product is an ideal choice to give your desired sour and fresh touch to your dishes. \n\n&nbsp;&nbsp;&nbsp;Java tamarind is known for its distinctive sour taste and is widely used in various dishes. In a 75 gram packaging, this product is practical and can be easily used in a variety of your favorite recipes. Add the unique taste of tamarind to your dishes with 75 grams of Tamarind."
+     },
+     "button-produk": {
+          "text": "Read Products"
+     },
+     "title-kontak": {
+          "text": "Contact us"
+     },
+     "produk-2": {
+          "text": "Javanese Tamarind 150 Grams Cap Gunung"
+     },
+     "deskripsi-2": {
+           "text": "&nbsp;&nbsp;&nbsp;&nbsp;Java Tamarind 150 grams is a natural product that brings delicious natural sourness to your cooking. Made from high quality tamarind seeds, this product offers practicality in providing a distinctive fresh taste to your dishes. \n\n&nbsp;&nbsp;Tamsamy has long been recognized as a magical spice capable of bringing a unique dimension of flavor to various dishes, from sauces to soups. With a 150 gram packaging, this product is ready to meet your cooking needs. Make your dish more delicious with a touch of 150 grams of Tamarind."
+     },
+     "produk-3": {
+          "text": "Javanese Tamarind 250 Grams Cap Gunung"
+     },
+     "deskripsi-3": {
+          "text": "&nbsp;&nbsp;&nbsp;&nbsp;Java Tamarind Seeds 250 grams is a natural product made from high quality tamarind seeds. This product is the perfect choice to add a sour and fresh taste to your cooking with a different taste. \n\n&nbsp;&nbsp;Tamsamic acid has various benefits, both for improving the taste of food and helping digestion. With a 250 gram packaging, you will have enough tamarind to cook delicious dishes. Add a natural and delicious touch to your cooking with Tamarind Seeds 250 grams" 
+     },
+     "detail-kontak": {
+          "text": "Jl. North Satellite IV No.29, Tanjungsari, Surabaya City, East Java, Indonesia"
+     },
+     "hub": {
+          "text": "Contact us"
+     },
+     "lengkapi": {
+          "text": "Complete your data"
+     },
+     "nama": {
+          "text": "Full name"
+     },
+     "email": {
+          "text": "Your email"
+     },
+     "nomor": {
+          "text": "Phone number"
+     },
+     "kota": {
+           "text": "Address"
+     },
+     "pesan": {
+           "text": "Your message"
+     },
+     "kirim": {
+           "text": "Send"
+     },
+     "lokasi": {
+         "text": "Our Location"
+     },
+     "big-title-1": {
+          "text": "CAP"
+     },
+     "big-title-2": {
+      "text": "GUNUNG"
+     },
+     "profil": {
+          "text": "Profile"
+       },
+       "artikel-navbar": {
+          "text": "Article"
+       },
+       "produk-navbar": {
+           "text": "Product"
+       },
+       "event-navbar": {
+           "text": "Event"
+       },
+       "asam-jawa": {
+            "text": "TAMARIND"
+       },
+       "cap-gunung": {
+             "text": "Brand Mountain"
+       },
+     "tentang": {
+        "text": "About Us"
+     },
+     "list-tentang": {
+        "text": "Brand Mountain Javanese Tamarind is packaged tamarind whose ingredients are 100% pure tamarind without any additional ingredients. Brand Mountain Javanese Tamarind is guaranteed to be clean and authentic."
+     },
+     "or": {
+          "text": "Or"
+     },
+     "daftar-agen": {
+          "text": "Indonesian Agent List Info:" 
+     },
+     "follow": {
+          "text": "Follow us"
+     },
+     "title-footer": {
+          "text": "Javanese Tamarind Brand Mountain"
+     },
+     "cetak": {
+          "text": "Print"
+     },
+     "kembali": {
+          "text": "Back"
+     },
+     "title-artikel": {
+          "text": "Article"
+     },
+     "title-event": {
+          "text": "Event"
+    },
+     "bahan": {
+          "text": "Ingredients"
+     },
+     "bumbu": {
+          "text": "Seasonings"
+     },
+     "cara-memasak": {
+          "text": "Cooking Method"
+     },
+     "button-lainnya": {
+          "text": "Other"
+      },
+      "produk-kami": {
+          "text": "Our Product"
+      },
+      "cari-produk": {
+          "text": "Search Product"
+      },
+      "kategori": {
+          "text": "Category"
+      }, 
+      "list-kategori-1": {
+           "text": "All"
+      },
+      "list-kategori-2": {
+           "text": "Seed"
+      },
+      "list-kategori-3": {
+       "text": "Meat"
+      },
+      "list-kategori-4": {
+       "text": "Raw material"
+      },
+      "validasi-nama": {
+          "text": "Name must be filled in"
+       },
+       "validasi-email": {
+          "text": "Email is required"
+       },
+       "validasi-telepon": {
+          "text": "Telephone Number is required"
+       },
+       "validasi-kota": {
+          "text": "Address must be filled in"
+       },
+       "validasi-pesan": {
+          "text": "Write Your Message"
+       },
+       "review": {
+          "text": "Description"
+       },
+       "Kembali": {
+          "text": "Back"
+       },
+       "whatsapp": {
+          "text": "Hello, welcome, what do you want to ask?"
+       },
+       "support": {
+           "text": "Support Instagram"
+       },
+       "stay": {
+          "text": "Stay Up to Date"
+        },
+        "list-stay": {
+           "text": "Subscribe to our newsletter and get the latest updates on our products and promotions."
+        },
+        "button-resep": {
+          "text": "Recipes"
+        },
+        "button-pengobatan": {
+         "text": "Health"
+       },
+       "button-sejarah": {
+         "text": "History"
+       },
+       "button-trend": {
+          "text": "trending dishes"
+        },
+       "list-event-1": {
+          "text": "Enjoy the deliciousness and cultural beauty at Aroma Tamarind! Taste special dishes, watch spectacular performances, and experience the magic of Tamarind heritage. Come on, welcome the happiness with us!"
+        },
+        "list-event-2": {
+           "text": "Experience the charm of local culinary and arts in the Aromatic Tradition. Presenting unforgettable delights and captivating art performances. Don't miss this unforgettable experience!"
+        },
+        "lisensi": {
+          "text": "Licence"
+        },
+        "component-empty": {
+          "text": "Not Found"
+        },
+        "text-header": {
+          "text": "Tamarind Mountain Stamp introduces various variants of tamarind with a million benefits that are good for health and served with a variety of foods with different tastes for you."
+        },
+        "title-interest": {
+          "text": "Tamarind has gained attention for its ability to support digestion, improve metabolism, and boost immunity. With its high antioxidant content and natural vitamin C, it is an ideal choice for those looking for a traditional health solution with real benefits."
+        },
+        "deskripsi-interest": {
+          "text": "offers a window into a world of traditional secrets rich in benefits. For generations, tamarind has held healing wonders yet to be fully revealed, being a natural weapon that promises healing for a variety of ailments. With today's message, you open the door to an enlightening and transformational experience , gaining immediate access to true health and sustainable happiness. Discover this secret immediately and take the first step towards lasting well-being."
+        },
+        "pesan-form": {
+          "text": "Order now"
+        },
+        "cari": {
+          "text": "Search"
+        },
+        "kemiri": {
+          "text": "Candlenut"
+     },
+     "kayu-manis": {
+          "text": "Cinnamon"
+     },
+     "kerupuk": {
+          "text": "Cracker"
+     },
+     "rempah": {
+     "text": "Spice"
+   },
+   "produk-lainnya": {
+     "text": "Other Product"
+   },
+   "customer": {
+     "text": "Customer Testimonials"
+   },
+   "agen": {
+     "text": "Hello Tamarind Mountain Brand team, can you explain the product?"
+   },
+   "sales": {
+     "text": "Hello Tamarind Mountain Brand team, can you explain the product?"
+   }    
+}

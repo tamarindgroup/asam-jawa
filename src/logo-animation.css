@@ -1,0 +1,27 @@
+.logo-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Set an appropriate height for your logos */
+  }
+  
+  .logo {
+    max-width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .logo.active {
+    opacity: 1;
+  }
+  
+  @keyframes fadeInOut {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
