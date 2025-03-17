@@ -253,5 +253,8 @@
    },
    "sales": {
      "text": "Hello Tamarind Mountain Brand team, can you explain the product?"
+   },
+   "new": {
+     "text": "new"
    }    
 }

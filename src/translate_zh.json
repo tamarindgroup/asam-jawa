@@ -253,6 +253,9 @@
           },
           "sales": {
                "text": "您好，Tamarind Mountain 品牌团队，您能解释一下该产品吗？"
+          },
+          "new": {
+               "text": "新的"
           }
          
 }

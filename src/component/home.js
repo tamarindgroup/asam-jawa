@@ -599,7 +599,7 @@ export const Home = () => {
 </Grid>
 
   {/* Right Grid */}
-  <Grid 
+  <Grid   
     item 
     xs={12} md={4} // Pastikan lebar penuh pada mobile, 6 kolom pada desktop
     style={{

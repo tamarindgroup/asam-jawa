@@ -169,6 +169,9 @@ export const Produk = () => {
       <Menu.Item key="Daging" id="hover-menu">
       {t("list-kategori-3.text")}
       </Menu.Item>
+      <Menu.Item key="Baru" id="hover-menu">
+      {t("new.text")}
+      </Menu.Item>
       {/* <Menu.Item key="Bahan-Baku" id="hover-menu">
       {t("list-kategori-4.text")}
       </Menu.Item> */}
@@ -274,6 +277,7 @@ export const Produk = () => {
         selectedCategory === "Semua" ||
         selectedCategory === "Daging" ||
         selectedCategory === "Biji" ||
+        selectedCategory === "Baru" ||
         selectedCategory === "Kemiri" ||
         selectedCategory === "Kayu Manis" ||
         selectedCategory === "Kerupuk"
