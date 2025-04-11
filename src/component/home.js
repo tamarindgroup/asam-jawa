@@ -584,7 +584,7 @@ export const Home = () => {
     </Card>
   </Grid>
 
-  <Grid 
+  {/* <Grid 
   item 
   xs={12} md={4} // Pastikan lebar penuh pada mobile, 6 kolom pada desktop
   style={{ 
@@ -596,7 +596,7 @@ export const Home = () => {
   }}
 >
   <img src={puasa} alt="Natal" style={{ maxWidth: '100%', height: 'auto' }} />
-</Grid>
+</Grid> */}
 
   {/* Right Grid */}
   <Grid   
