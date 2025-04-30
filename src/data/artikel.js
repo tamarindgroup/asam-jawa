@@ -22,8 +22,205 @@ import gambar20 from '../image/image-artikel/lode.jpg';
 import gambar21 from '../image/image-artikel/update-22-04.webp';
 import gambar22 from '../image/image-artikel/61e89eb479b45.jpg';
 import gambar23 from '../image/image-artikel/burger.jpg';
+import gambar25 from '../image/image-artikel/2025-04-29.jpg';
+import gambar26 from '../image/image-artikel/2025-04-30.jpg';
 
 const  dataArtikel = [
+    {
+        "id": {
+            "nama": "Asam Biji untuk Hari Kejujuran Nasional",
+            "deskripsi": `Artikel ini menjelaskan tentang manfaat asam biji (tamarind seed) dalam konteks peringatan Hari Kejujuran Nasional setiap 30 April. Asam biji dipakai sebagai metafora nilai kejujuran yang memberikan rasa segar dan transparansi dalam kehidupan bermasyarakat.
+    
+    Kandungan alami asam biji yang membersihkan dan menyehatkan diibaratkan seperti kejujuran yang membersihkan hubungan sosial. Artikel ini juga menyoroti berbagai kegiatan edukatif menggunakan asam biji dalam perayaan Hari Kejujuran Nasional.`,
+            "image": gambar26,
+            "informasi": {
+                "manfaat_asam": `1) Simbol transparansi dan kemurnian
+    2) Mengandung antioksidan untuk detoksifikasi
+    3) Asam alami yang membersihkan sistem
+    4) Bahan alami untuk edukasi nilai kejujuran
+    5) Dapat diolah menjadi berbagai produk kreatif`,
+                "kegiatan_hari_kejujuran": `1) Workshop pembuatan produk dari asam biji
+    2) Lomba cerita anak dengan tema kejujuran
+    3) Pembagian bibit pohon asam sebagai simbol kejujuran
+    4) Demo masak dengan asam biji untuk edukasi gizi
+    5) Seminar nasional tentang pentingnya integritas`
+            },
+            "post": "Diposting pada 30/04/2025",
+            "kategori": "edukasi",
+            "referensi": "https://www.bigdaymart.com/2025/04/30/asam-biji-untuk-hari-kejujuran-nasional/"
+        },
+        "en": {
+            "nama": "Tamarind Seeds for National Honesty Day",
+            "deskripsi": `This article explains the benefits of tamarind seeds in the context of National Honesty Day celebration every April 30th. Tamarind seeds are used as a metaphor for honesty values that bring freshness and transparency to social life.
+    
+    The natural cleansing and healthy properties of tamarind seeds are likened to honesty that cleanses social relationships. The article also highlights various educational activities using tamarind seeds during National Honesty Day celebrations.`,
+            "image": gambar26,
+            "informasi": {
+                "tamarind_benefits": `1) Symbol of transparency and purity
+    2) Contains antioxidants for detoxification
+    3) Natural acid that cleanses the system
+    4) Natural material for honesty value education
+    5) Can be processed into various creative products`,
+                "honesty_day_activities": `1) Tamarind seed product-making workshop
+    2) Children's storytelling competition with honesty theme
+    3) Distribution of tamarind saplings as honesty symbols
+    4) Cooking demo with tamarind seeds for nutrition education
+    5) National seminar about the importance of integrity`
+            },
+            "post": "Posted on 30/04/2025",
+            "kategori": "education",
+            "referensi": "https://www.bigdaymart.com/2025/04/30/asam-biji-untuk-hari-kejujuran-nasional/"
+        },
+        "ar": {
+            "nama": "بذور التمر الهندي ليوم الصدق الوطني",
+            "deskripsi": `تشرح هذه المقالة فوائد بذور التمر الهندي في سياق الاحتفال بيوم الصدق الوطني في 30 أبريل من كل عام. تستخدم بذور التمر الهندي كمجاز لقيم الصدق التي تجلب الانتعاش والشفافية للحياة الاجتماعية.
+    
+    تشبه خصائص بذور التمر الهندي الطبيعية المنقية والصحية الصدق الذي ينقي العلاقات الاجتماعية. تسلط المقالة الضوء أيضًا على الأنشطة التعليمية المختلفة باستخدام بذور التمر الهندي خلال احتفالات يوم الصدق الوطني.`,
+            "image": gambar26,
+            "informasi": {
+                "benefits": `1) رمز الشفافية والنقاء
+    2) يحتوي على مضادات الأكسدة لإزالة السموم
+    3) حمض طبيعي ينقي الجسم
+    4) مادة طبيعية لتعليم قيم الصدق
+    5) يمكن تحويلها إلى منتجات إبداعية متنوعة`,
+                "activities": `1) ورشة عمل لصنع منتجات من بذور التمر الهندي
+    2) مسابقة رواية القصص للأطفال بموضوع الصدق
+    3) توزيع شتلات التمر الهندي كرموز للصدق
+    4) عرض طبخ باستخدام بذور التمر الهندي للتوعية الغذائية
+    5) ندوة وطنية عن أهمية النزاهة`
+            },
+            "post": "نشر على 30/04/2025",
+            "kategori": "التعليم",
+            "referensi": "https://www.bigdaymart.com/2025/04/30/asam-biji-untuk-hari-kejujuran-nasional/"
+        },
+        "zh": {
+            "nama": "酸豆种子与全国诚实日",
+            "deskripsi": `本文解释了酸豆种子在每年4月30日全国诚实日庆祝活动中的益处。酸豆种子被用作诚实价值观的隐喻，为社交生活带来清新和透明。
+    
+    酸豆种子天然的清洁和健康特性被比作净化社会关系的诚实。文章还重点介绍了在全国诚实日庆祝活动中使用酸豆种子的各种教育活动。`,
+            "image": gambar26,
+            "informasi": {
+                "benefits": `1) 透明和纯洁的象征
+    2) 含抗氧化剂可排毒
+    3) 清洁系统的天然酸
+    4) 用于诚实价值观教育的天然材料
+    5) 可加工成各种创意产品`,
+                "activities": `1) 酸豆种子产品制作工作坊
+    2) 以诚实为主题的儿童讲故事比赛
+    3) 分发酸豆树苗作为诚实象征
+    4) 用酸豆种子进行营养教育烹饪演示
+    5) 关于诚信重要性的全国研讨会`
+            },
+            "post": "发表于 30/04/2025",
+            "kategori": "教育",
+            "referensi": "https://www.bigdaymart.com/2025/04/30/asam-biji-untuk-hari-kejujuran-nasional/"
+        }
+    }, {
+        "id": {
+            "nama": "Kacang Hijau dan Hari Posyandu Nasional",
+            "deskripsi": `
+            Artikel ini membahas tentang manfaat kesehatan kacang hijau dan hubungannya dengan Hari Posyandu Nasional yang diperingati setiap 29 April. Kacang hijau sebagai sumber protein nabati yang ekonomis menjadi fokus dalam program peningkatan gizi masyarakat melalui posyandu.
+    
+            Kacang hijau mengandung protein tinggi, serat, dan berbagai vitamin mineral yang penting untuk pertumbuhan anak dan kesehatan ibu. Pada Hari Posyandu Nasional, kacang hijau sering dibagikan sebagai bagian dari program suplementasi gizi untuk balita dan ibu hamil.
+            `,
+            "image": gambar25,
+            "informasi": {
+                "manfaat": `1) Sumber protein nabati yang murah
+                2) Mengandung vitamin B kompleks untuk energi
+                3) Kaya serat untuk pencernaan sehat
+                4) Mengandung zat besi untuk mencegah anemia
+                5) Baik untuk pertumbuhan dan perkembangan anak`,
+                "fakta_posyandu": `1) Posyandu merupakan garda terdepan kesehatan masyarakat
+                2) Setiap 29 April diperingati sebagai Hari Posyandu Nasional
+                3) Fokus pada pelayanan gizi dan imunisasi
+                4) Kacang hijau menjadi makanan tambahan yang sering dibagikan
+                5) Target utama adalah balita dan ibu hamil`
+            },
+            "post": "Diposting pada 29/04/2025",
+            "kategori": "kesehatan",
+            "referensi": [
+                "https://www.bigdaymart.com/2025/04/29/kacang-hijau-dan-hari-posyandu-nasional/"
+            ]
+        },
+        "en": {
+            "nama": "Mung Beans and National Posyandu Day",
+            "deskripsi": `
+            This article discusses the health benefits of mung beans and their connection to National Posyandu Day celebrated every April 29th. Mung beans as an economical plant-based protein source become the focus in community nutrition improvement programs through posyandu.
+    
+            Mung beans contain high protein, fiber, and various important vitamins and minerals for child growth and maternal health. On National Posyandu Day, mung beans are often distributed as part of nutrition supplementation programs for toddlers and pregnant women.
+            `,
+            "image": gambar25,
+            "informasi": {
+                "benefits": `1) Affordable plant-based protein source
+                2) Contains B complex vitamins for energy
+                3) Rich in fiber for healthy digestion
+                4) Contains iron to prevent anemia
+                5) Good for child growth and development`,
+                "posyandu_facts": `1) Posyandu is the frontline of community health
+                2) Every April 29th is celebrated as National Posyandu Day
+                3) Focus on nutrition services and immunization
+                4) Mung beans are often distributed as supplementary food
+                5) Main targets are toddlers and pregnant women`
+            },
+            "post": "Posted on 29/04/2025",
+            "kategori": "health",
+            "referensi": [
+                "https://www.bigdaymart.com/2025/04/29/kacang-hijau-dan-hari-posyandu-nasional/"
+            ]
+        },
+        "ar": {
+            "nama": "الفول الأخضر ويوم بوسياندو الوطني",
+            "deskripsi": `
+            تناقش هذه المقالة الفوائد الصحية للفول الأخضر وعلاقته بيوم بوسياندو الوطني الذي يتم الاحتفال به في 29 أبريل من كل عام. يصبح الفول الأخضر كمصدر اقتصادي للبروتين النباتي محورًا في برامج تحسين التغذية المجتمعية من خلال بوسياندو.
+    
+            يحتوي الفول الأخضر على نسبة عالية من البروتين والألياف والفيتامينات والمعادن المهمة لنمو الأطفال وصحة الأمهات. في يوم بوسياندو الوطني، غالبًا ما يتم توزيع الفول الأخضر كجزء من برامج التغذية التكميلية للأطفال الصغار والنساء الحوامل.
+            `,
+            "image": gambar25,
+            "informasi": {
+                "benefits": `1) مصدر بروتين نباتي اقتصادي
+                2) يحتوي على فيتامينات ب المركبة للطاقة
+                3) غني بالألياف لصحة الجهاز الهضمي
+                4) يحتوي على الحديد للوقاية من فقر الدم
+                5) جيد لنمو وتطور الطفل`,
+                "posyandu_facts": `1) بوسياندو هو خط الدفاع الأول للصحة المجتمعية
+                2) يتم الاحتفال بيوم 29 أبريل كيوم بوسياندو الوطني
+                3) التركيز على خدمات التغذية والتحصين
+                4) غالبًا ما يتم توزيع الفول الأخضر كغذاء تكميلي
+                5) المستهدفون الرئيسيون هم الأطفال الصغار والنساء الحوامل`
+            },
+            "post": "نشر على 29/04/2025",
+            "kategori": "صحة",
+            "referensi": [
+                "https://www.bigdaymart.com/2025/04/29/kacang-hijau-dan-hari-posyandu-nasional/"
+            ]
+        },
+        "zh": {
+            "nama": "绿豆和全国综合服务站日",
+            "deskripsi": `
+            本文讨论了绿豆的健康益处及其与每年4月29日庆祝的全国综合服务站日的关系。绿豆作为经济的植物蛋白来源，成为通过综合服务站改善社区营养计划的重点。
+    
+            绿豆含有高蛋白、纤维和各种对儿童成长和孕产妇健康重要的维生素矿物质。在全国综合服务站日，绿豆经常作为幼儿和孕妇营养补充计划的一部分分发。
+            `,
+            "image": gambar25,
+            "informasi": {
+                "benefits": `1) 经济实惠的植物蛋白来源
+                2) 含B族维生素提供能量
+                3) 富含纤维促进消化健康
+                4) 含铁预防贫血
+                5) 有益儿童生长发育`,
+                "posyandu_facts": `1) 综合服务站是社区健康的第一线
+                2) 每年4月29日被定为全国综合服务站日
+                3) 重点关注营养服务和免疫接种
+                4) 绿豆常作为补充食品分发
+                5) 主要服务对象是幼儿和孕妇`
+            },
+            "post": "发表于 29/04/2025",
+            "kategori": "健康",
+            "referensi": [
+                "https://www.bigdaymart.com/2025/04/29/kacang-hijau-dan-hari-posyandu-nasional/"
+            ]
+        }
+    },
     {
         id: {
             "nama": "Lodeh Terong Asam Jawa Menu Sayuran yang Lezat dan Bergizi",

@@ -18,8 +18,6 @@ import EventIcon from '@mui/icons-material/Event';
 import Countdown from "react-countdown";
 import LanguageIcon from '@mui/icons-material/Language'; 
 import { useAnimate, stagger, motion } from "framer-motion";
-// import downloadIcon from "./assets/DOWNLOAD.svg";
-// import forwardIcon from "./assets/FORWARD.svg";
 
 const Navbar = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -29,16 +27,13 @@ const Navbar = () => {
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
   const [open, setOpen] = useState(false);
   const [scope, animate] = useAnimate();
+  const menuRef = useRef(null); // Menambahkan ref untuk menu
 
   const staggerList = stagger(0.1, { startDelay: 0.25 });
 
-  // const Completionist = () => <span>HUT RI ke 79</span>;
-
-  // Date target (17 Agustus tahun ini)
-  // const targetDate = new Date(new Date().getFullYear(), 7, 17);
-
   const handleClickOutside = (event) => {
-    if (!scope.current.contains(event.target)) {
+    // Pastikan scope.current ada sebelum mengakses contains
+    if (scope.current && !scope.current.contains(event.target)) {
       setOpen(false);
     }
   };
@@ -77,11 +72,14 @@ const Navbar = () => {
   }, [open, animate, scope]);
 
   useEffect(() => {
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
-    };
-  }, []);
+    // Pastikan menambahkan event listener hanya jika scope.current ada
+    if (scope.current) {
+      document.addEventListener('mousedown', handleClickOutside);
+      return () => {
+        document.removeEventListener('mousedown', handleClickOutside);
+      };
+    }
+  }, [scope]); // Tambahkan scope sebagai dependency
 
   const toggleDrawer = (open) => (event) => {
     if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
@@ -116,19 +114,19 @@ const Navbar = () => {
       }}
     >
       <MenuItem onClick={() => changeLanguage('en')}>
-        <img src={flagInggris} style={{ height: 20, width: 35 }} />
+        <img src={flagInggris} style={{ height: 20, width: 35 }} alt="English" />
         English
       </MenuItem>
       <MenuItem onClick={() => changeLanguage('id')}>
-        <img src={flagIndo} style={{ height: 20, width: 35 }} />
+        <img src={flagIndo} style={{ height: 20, width: 35 }} alt="Indonesian" />
         Indonesian
       </MenuItem>
       <MenuItem onClick={() => changeLanguage('ar')}>
-        <img src={flagArab} style={{ height: 20, width: 30, paddingLeft: '4px', paddingRight: '3px' }} />
+        <img src={flagArab} style={{ height: 20, width: 30, paddingLeft: '4px', paddingRight: '3px' }} alt="Arabic" />
         Arabic
       </MenuItem>
       <MenuItem onClick={() => changeLanguage('zh')}>
-        <img src={flagChina} style={{ height: 20, width: 20, paddingLeft: '8px', paddingRight: '7px' }} />
+        <img src={flagChina} style={{ height: 20, width: 20, paddingLeft: '8px', paddingRight: '7px' }} alt="Chinese" />
         Chinese
       </MenuItem>
     </Menu>
@@ -162,7 +160,7 @@ const Navbar = () => {
 
   return (
     <>
- <Box 
+      <Box 
         style={{
           position: 'sticky',
           top: 0,
@@ -177,98 +175,102 @@ const Navbar = () => {
           boxShadow: 'none',
         }}
       >
-  {/* Konten Logo */}
-  <div style={{ display: 'flex', alignItems: 'center' }}>
-    <img src={LogoGunung} alt="Logo" style={{ height: '50px', marginLeft: '16px' }} />
-    <div className="logo-text-2">
-      {t("big-title-1.text")} <span className="gunung-text">{t("big-title-2.text")}</span>
-    </div>
-  </div>
+        {/* Konten Logo */}
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+          <img src={LogoGunung} alt="Logo" style={{ height: '50px', marginLeft: '16px' }} />
+          <div className="logo-text-2">
+            {t("big-title-1.text")} <span className="gunung-text">{t("big-title-2.text")}</span>
+          </div>
+        </div>
 
-  {/* Judul Besar */}
-  {!isMobile && (
-    <div style={{ flex: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-      <Typography
-        id="title-header-1"
-        style={{
-          color: "rgb(204, 21, 21)",
-          fontSize: "40px",
-          textAlign: "center",
-        }}
-      >
-        {t("asam-jawa.text")}
-      </Typography>
-      <Typography
-        id="title-header"
-        style={{
-          color: "rgb(204, 21, 21)",
-          fontSize: "40px",
-          textAlign: "center",
-          marginLeft: "10px",
-        }}
-      >
-        {t("cap-gunung.text")}
-      </Typography>
-    </div>
-  )}
+        {/* Judul Besar */}
+        {!isMobile && (
+          <div style={{ flex: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <Typography
+              id="title-header-1"
+              style={{
+                color: "rgb(204, 21, 21)",
+                fontSize: "40px",
+                textAlign: "center",
+              }}
+            >
+              {t("asam-jawa.text")}
+            </Typography>
+            <Typography
+              id="title-header"
+              style={{
+                color: "rgb(204, 21, 21)",
+                fontSize: "40px",
+                textAlign: "center",
+                marginLeft: "10px",
+              }}
+            >
+              {t("cap-gunung.text")}
+            </Typography>
+          </div>
+        )}
 
         <Toolbar style={{ backgroundColor: 'transparent' }}>
           {isMobile ? (
-            <div ref={scope} anchor="right">
+            <div ref={scope}>
               <div>
-                <motion.button style={{ 
-                  position: 'relative', 
-                  left: '20px', 
-                  border: 'none',
-                  borderRadius: '20px' 
+                <motion.button 
+                  style={{ 
+                    position: 'relative', 
+                    left: '20px', 
+                    border: 'none',
+                    borderRadius: '20px' 
                   }}  
                   onClick={() => setOpen(!open)} 
-                  whileTap={{ scale: 0.95 }}>
+                  whileTap={{ scale: 0.95 }}
+                >
                   <MenuIcon style={{ color: 'gray', position: 'relative', top: '2px' }}/>
                 </motion.button>
               </div>
-              <div>
-            <ul style={{
-              listStyleType: 'none',
-              display: 'flex', // Gunakan flexbox untuk menyusun tombol secara horizontal
-              justifyContent: 'center',
-              alignItems: 'center',
-              marginLeft: '-33px',
-            }}>
-              {navLinks.map((item, index) => (
-               <Button
-               id='menu-list'
-               component={Link}
-               to={item.path}
-               onClick={() => setOpen(false)}
-               sx={{
-                 width: '120px', 
-                 position: 'relative', 
-                 marginTop: '10px',
-                 display: 'flex', // Flexbox untuk pengaturan item dalam tombol
-                 alignItems: 'center', // Menyusun elemen vertikal
-                 justifyContent: 'center', // Menyusun konten horizontal
-                 backgroundColor: 'orange', // Warna background tombol
-                 marginRight: '20px',
-                 borderRadius: '12px', // Border radius untuk efek rounded
-                 padding: '8px 16px', // Padding agar tombol tidak terlalu kecil
-                 boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)', // Shadow untuk efek mendalam
-                 transition: 'all 0.3s ease', // Transisi untuk efek smooth saat hover
-                 '&:hover': {
-                   backgroundColor: '#505050', // Warna saat hover
-                   boxShadow: '0px 6px 12px rgba(0, 0, 0, 0.3)', // Shadow lebih besar saat hover
-                   transform: 'scale(1.05)', // Membesarkan tombol sedikit saat hover
-                 },
-               }}
-               key={index}
-             >
-               <motion.li style={{ color: 'white' }}>
-                 {item.text}
-               </motion.li>
-             </Button>
-              ))}
-            </ul>
-          </div>
+              {open && (
+                <div>
+                  <ul style={{
+                    listStyleType: 'none',
+                    display: 'flex', // Gunakan flexbox untuk menyusun tombol secara horizontal
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    marginLeft: '-33px',
+                  }}>
+                    {navLinks.map((item, index) => (
+                      <Button
+                        id='menu-list'
+                        component={Link}
+                        to={item.path}
+                        onClick={() => setOpen(false)}
+                        sx={{
+                          width: '120px', 
+                          position: 'relative', 
+                          marginTop: '10px',
+                          display: 'flex', // Flexbox untuk pengaturan item dalam tombol
+                          alignItems: 'center', // Menyusun elemen vertikal
+                          justifyContent: 'center', // Menyusun konten horizontal
+                          backgroundColor: 'orange', // Warna background tombol
+                          marginRight: '20px',
+                          borderRadius: '12px', // Border radius untuk efek rounded
+                          padding: '8px 16px', // Padding agar tombol tidak terlalu kecil
+                          boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)', // Shadow untuk efek mendalam
+                          transition: 'all 0.3s ease', // Transisi untuk efek smooth saat hover
+                          '&:hover': {
+                            backgroundColor: '#505050', // Warna saat hover
+                            boxShadow: '0px 6px 12px rgba(0, 0, 0, 0.3)', // Shadow lebih besar saat hover
+                            transform: 'scale(1.05)', // Membesarkan tombol sedikit saat hover
+                          },
+                        }}
+                        key={index}
+                      >
+                        <motion.li style={{ color: 'white' }}>
+                          {item.text}
+                        </motion.li>
+                      </Button>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
           ) : (
             <ul style={{
@@ -278,52 +280,50 @@ const Navbar = () => {
               alignItems: 'center',
               marginRight: '20px'
             }}>
-            { navLinks.map((navLink, index) => (
+              { navLinks.map((navLink, index) => (
                 <Button
-                id='menu-list'
-                component={Link}
-                to={navLink.path}
-                primary={navLink.text}
-                disableRipple={false}
-                sx={{
-                  '& .MuiTypography-root': {
-                    fontFamily: "'Fjalla One', sans-serif",
-                    padding: 3,
-                  },
-                  marginRight: '20px',
-                  overflow: 'hidden',
-                  position: 'relative',
-                  // transition: 'transform 0.3s ease, box-shadow 0.3s ease', // Transisi halus untuk efek glow
-                  // boxShadow: '0px 0px 8px rgba(0, 0, 0, 0.2)', // Shadow normal
-          
-                  '&:hover': {
-                    transform: 'scale(1.05)',
-                    boxShadow: '0px 0px 20px 8px rgba(255, 140, 0, 0.6)', // Shadow dan glow warna oranye saat hover
-                  },
-          
-                  '&:active': {
-                    boxShadow: '0px 0px 12px 6px rgba(255, 140, 0, 0.8)', // Efek shadow lebih intens saat ditekan
-                  },
-                }}
-                key={index}
-              >
-               <motion.li style={{ color: 'black' }}>
-                 {navLink.text}
-               </motion.li>
-              </Button>
-            ))}
+                  id='menu-list'
+                  component={Link}
+                  to={navLink.path}
+                  primary={navLink.text}
+                  disableRipple={false}
+                  sx={{
+                    '& .MuiTypography-root': {
+                      fontFamily: "'Fjalla One', sans-serif",
+                      padding: 3,
+                    },
+                    marginRight: '20px',
+                    overflow: 'hidden',
+                    position: 'relative',
+                    '&:hover': {
+                      transform: 'scale(1.05)',
+                      boxShadow: '0px 0px 20px 8px rgba(255, 140, 0, 0.6)', // Shadow dan glow warna oranye saat hover
+                    },
+                    '&:active': {
+                      boxShadow: '0px 0px 12px 6px rgba(255, 140, 0, 0.8)', // Efek shadow lebih intens saat ditekan
+                    },
+                  }}
+                  key={index}
+                >
+                  <motion.li style={{ color: 'black' }}>
+                    {navLink.text}
+                  </motion.li>
+                </Button>
+              ))}
             </ul>
           )}
 
           <div style={{ marginLeft: '50px', display: 'flex', alignItems: 'center' }}>
-            <IconButton onClick={() => setLanguageDropdownOpen(true)}>
+            <IconButton 
+              onClick={(event) => setLanguageDropdownOpen(event.currentTarget)}
+              ref={menuRef}
+            >
               <LanguageIcon style={{ color: 'black' }} />
             </IconButton>
             {languageMenu}
           </div>
         </Toolbar>
       </Box>  
-
     </>
   );
 };
