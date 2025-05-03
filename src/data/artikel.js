@@ -24,9 +24,279 @@ import gambar22 from '../image/image-artikel/61e89eb479b45.jpg';
 import gambar23 from '../image/image-artikel/burger.jpg';
 import gambar25 from '../image/image-artikel/2025-04-29.jpg';
 import gambar26 from '../image/image-artikel/2025-04-30.jpg';
+import gambar27 from '../image/image-artikel/2025-05-01.png';
+import gambar28 from '../image/image-artikel/2025-05-02.jpeg';
+import gambar29 from '../image/image-artikel/2025-05-03.jpeg';
 
 const  dataArtikel = [
     {
+        "id": {
+            "nama": "Kulit Tahu Soyami: Bintang Baru di JIExpo 2025",
+            "deskripsi": `Artikel ini mengangkat inovasi kulit tahu Soyami yang menjadi sorotan utama dalam Jakarta International Expo (JIExpo) 2025. Produk ini menawarkan tekstur unik dan kandungan protein tinggi yang berasal dari kedelai pilihan.
+    
+    Soyami berhasil mengubah kulit tahu biasa menjadi produk premium melalui proses ekstrusi modern yang mempertahankan nutrisi alami kedelai. Inovasi ini membuka peluang baru bagi industri makanan sehat di Indonesia.`,
+            "image": gambar29,
+            "informasi": {
+                "keunggulan": `1) Tekstur kenyal alami tanpa bahan pengenyal
+    2) Protein 40% lebih tinggi dari kulit tahu biasa
+    3) Proses produksi ramah lingkungan
+    4) Tahan lama tanpa pengawet
+    5) Serbaguna untuk berbagai masakan`,
+                "penghargaan": `1) Best Innovation Award JIExpo 2025
+    2) Sertifikat Halal Internasional
+    3) Penghargaan Produk Ramah Lingkungan
+    4) Top Choice Chef Indonesia 2025
+    5) Rekomendasi Asosiasi Gizi Indonesia`
+            },
+            "post": "Diposting pada 03/05/2025",
+            "kategori": "inovasi",
+            "referensi": "https://www.bigdaymart.com/2025/05/03/kulit-tahu-soyami-bintang-baru-di-jiexpo-2025/"
+        },
+        "en": {
+            "nama": "Soyami Tofu Skin: The New Star at JIExpo 2025",
+            "deskripsi": `This article highlights the innovative Soyami tofu skin that became the main attraction at Jakarta International Expo (JIExpo) 2025. This product offers unique texture and high protein content from selected soybeans.
+    
+    Soyami has successfully transformed ordinary tofu skin into a premium product through modern extrusion process that preserves soy's natural nutrients. This innovation opens new opportunities for Indonesia's healthy food industry.`,
+            "image": gambar29,
+            "informasi": {
+                "advantages": `1) Natural chewy texture without firming agents
+    2) 40% higher protein than regular tofu skin
+    3) Eco-friendly production process
+    4) Long shelf life without preservatives
+    5) Versatile for various dishes`,
+                "awards": `1) JIExpo 2025 Best Innovation Award
+    2) International Halal Certificate
+    3) Eco-Friendly Product Award
+    4) Top Choice of Indonesian Chefs 2025
+    5) Indonesian Nutrition Association Recommendation`
+            },
+            "post": "Posted on 05/03/2025",
+            "kategori": "innovation",
+            "referensi": "https://www.bigdaymart.com/2025/05/03/kulit-tahu-soyami-bintang-baru-di-jiexpo-2025/"
+        },
+        "ar": {
+            "nama": "جلد التوفو سويامي: النجم الجديد في معرض جاكرتا الدولي 2025",
+            "deskripsi": `تسلط هذه المقالة الضوء على الابتكار في جلد التوفو سويامي الذي أصبح محط الأنظار في معرض جاكرتا الدولي 2025. يقدم هذا المنتج ملمسًا فريدًا ومحتوى بروتين عالي من فول الصويا المختار.
+    
+    نجح سويامي في تحويل جلد التوفو العادي إلى منتج مميز من خلال عملية بثق حديثة تحافظ على العناصر الغذائية الطبيعية للصويا. يفتح هذا الابتكار فرصًا جديدة لصناعة الأغذية الصحية في إندونيسيا.`,
+            "image": gambar29,
+            "informasi": {
+                "advantages": `1) قوام مطاطي طبيعي بدون مواد متماسكة
+    2) بروتين أعلى بنسبة 40% من جلد التوفو العادي
+    3) عملية إنتاج صديقة للبيئة
+    4) عمر تخزين طويل بدون مواد حافظة
+    5) متعدد الاستخدامات لأطباق مختلفة`,
+                "awards": `1) جائزة أفضل ابتكار في معرض جاكرتا 2025
+    2) شهادة حلال دولية
+    3) جائزة المنتج الصديق للبيئة
+    4) اختيار أفضل الطهاة الإندونيسيين 2025
+    5) توصية جمعية التغذية الإندونيسية`
+            },
+            "post": "نشر على 03/05/2025",
+            "kategori": "ابتكار",
+            "referensi": "https://www.bigdaymart.com/2025/05/03/kulit-tahu-soyami-bintang-baru-di-jiexpo-2025/"
+        },
+        "zh": {
+            "nama": "Soyami豆腐皮：2025雅加达国际博览会的新星",
+            "deskripsi": `本文重点介绍了在2025雅加达国际博览会上成为主要亮点的创新Soyami豆腐皮。该产品采用精选大豆，提供独特的质地和高蛋白质含量。
+    
+    Soyami通过保留大豆天然营养的现代挤压工艺，成功将普通豆腐皮转变为优质产品。这一创新为印尼健康食品产业开辟了新机遇。`,
+            "image": gambar29,
+            "informasi": {
+                "advantages": `1) 天然嚼劲质地，无需凝固剂
+    2) 蛋白质含量比普通豆腐皮高40%
+    3) 环保生产工艺
+    4) 不含防腐剂，保质期长
+    5) 适用于各种菜肴`,
+                "awards": `1) 2025雅加达国际博览会最佳创新奖
+    2) 国际清真认证
+    3) 环保产品奖
+    4) 2025印尼厨师首选奖
+    5) 印尼营养协会推荐产品`
+            },
+            "post": "发表于2025年5月3日",
+            "kategori": "创新",
+            "referensi": "https://www.bigdaymart.com/2025/05/03/kulit-tahu-soyami-bintang-baru-di-jiexpo-2025/"
+        }
+    }, {
+        "id": {
+            "nama": "Soh Hoon: Belajar Kearifan Lokal di Hari Pendidikan Nasional",
+            "deskripsi": `Artikel ini membahas tentang perayaan Hari Pendidikan Nasional setiap 2 Mei melalui lensa kuliner tradisional Soh Hoon (mie sayur asam) sebagai media pembelajaran kearifan lokal. Hidangan ini menjadi simbol integrasi pengetahuan tradisional dengan pendidikan modern.
+    
+    Soh Hoon yang terbuat dari sayuran fermentasi alami menunjukkan bagaimana proses alami dan pengetahuan lokal dapat menjadi bahan ajar yang berharga tentang sains, nutrisi, dan budaya.`,
+            "image": gambar28,
+            "informasi": {
+                "nilai_pendidikan": `1) Fermentasi alami: Pelajaran biologi praktis
+    2) Kombinasi rasa: Harmoni dalam keberagaman
+    3) Proses pembuatan: Kesabaran dan ketelitian
+    4) Bahan lokal: Pendidikan keberlanjutan
+    5) Warisan kuliner: Pelestarian budaya`,
+                "kegiatan_sekolah": `1) Workshop pembuatan Soh Hoon untuk siswa
+    2) Lomba kreasi resep Soh Hoon sehat
+    3) Pameran makanan tradisional edukatif
+    4) Seminar gizi berbasis kearifan lokal
+    5) Kunjungan ke produsen Soh Hoon tradisional`
+            },
+            "post": "Diposting pada 02/05/2025",
+            "kategori": "pendidikan",
+            "referensi": "https://www.bigdaymart.com/2025/05/02/soh-hoon-belajar-kearifan-lokal-di-hari-pendidikan-nasional/"
+        },
+        "en": {
+            "nama": "Soh Hoon: Learning Local Wisdom on National Education Day",
+            "deskripsi": `This article discusses the celebration of National Education Day every May 2nd through the lens of traditional Soh Hoon (sour vegetable noodles) cuisine as a medium for learning local wisdom. This dish symbolizes the integration of traditional knowledge with modern education.
+    
+    Made from naturally fermented vegetables, Soh Hoon demonstrates how natural processes and local knowledge can become valuable teaching materials about science, nutrition, and culture.`,
+            "image": gambar28,
+            "informasi": {
+                "educational_values": `1) Natural fermentation: Practical biology lesson
+    2) Flavor combination: Harmony in diversity
+    3) Production process: Patience and meticulousness
+    4) Local ingredients: Sustainability education
+    5) Culinary heritage: Cultural preservation`,
+                "school_activities": `1) Soh Hoon making workshop for students
+    2) Healthy Soh Hoon recipe competition
+    3) Educational traditional food exhibition
+    4) Local wisdom-based nutrition seminar
+    5) Visit to traditional Soh Hoon producers`
+            },
+            "post": "Posted on 05/02/2025",
+            "kategori": "education",
+            "referensi": "https://www.bigdaymart.com/2025/05/02/soh-hoon-belajar-kearifan-lokal-di-hari-pendidikan-nasional/"
+        },
+        "ar": {
+            "nama": "سوهون: تعلم الحكمة المحلية في اليوم الوطني للتعليم",
+            "deskripsi": `تناقش هذه المقالة الاحتفال باليوم الوطني للتعليم في الثاني من مايو من كل عام من خلال عدسة طبق سوهون التقليدي (نودلز الخضار الحامضة) كوسيلة لتعلم الحكمة المحلية. يمثل هذا الطبق تكامل المعرفة التقليدية مع التعليم الحديث.
+    
+    المصنوع من الخضروات المخمرة طبيعياً، يوضح سوهون كيف يمكن للعمليات الطبيعية والمعرفة المحلية أن تصبح مواد تعليمية قيمة عن العلوم والتغذية والثقافة.`,
+            "image": gambar28,
+            "informasi": {
+                "educational_values": `1) التخمر الطبيعي: درس عملي في الأحياء
+    2) مزيج النكهات: الانسجام في التنوع
+    3) عملية الإنتاج: الصبر والدقة
+    4) المكونات المحلية: تعليم الاستدامة
+    5) التراث الغذائي: الحفاظ على الثقافة`,
+                "school_activities": `1) ورشة عمل صنع سوهون للطلاب
+    2) مسابقة وصفات سوهون الصحية
+    3) معرض الأطعمة التقليدية التعليمية
+    4) ندوة تغذية قائمة على الحكمة المحلية
+    5) زيارة منتجي سوهون التقليديين`
+            },
+            "post": "نشر على 02/05/2025",
+            "kategori": "التعليم",
+            "referensi": "https://www.bigdaymart.com/2025/05/02/soh-hoon-belajar-kearifan-lokal-di-hari-pendidikan-nasional/"
+        },
+        "zh": {
+            "nama": "Soh Hoon：全国教育日学习本土智慧",
+            "deskripsi": `本文讨论了每年5月2日全国教育日的庆祝活动，通过传统酸菜面食Soh Hoon作为学习本土智慧的媒介。这道菜象征着传统知识与现代教育的融合。
+    
+    由天然发酵蔬菜制成的Soh Hoon展示了自然过程和本土知识如何成为有关科学、营养和文化的宝贵教材。`,
+            "image": gambar28,
+            "informasi": {
+                "educational_values": `1) 自然发酵：实用的生物课
+    2) 风味组合：多元中的和谐
+    3) 制作过程：耐心与细致
+    4) 本地食材：可持续发展教育
+    5) 烹饪遗产：文化保护`,
+                "school_activities": `1) 学生Soh Hoon制作工作坊
+    2) 健康Soh Hoon食谱比赛
+    3) 教育性传统食品展览
+    4) 基于本土智慧的营养研讨会
+    5) 参观传统Soh Hoon生产商`
+            },
+            "post": "发表于2025年5月2日",
+            "kategori": "教育",
+            "referensi": "https://www.bigdaymart.com/2025/05/02/soh-hoon-belajar-kearifan-lokal-di-hari-pendidikan-nasional/"
+        }
+    }, {
+        "id": {
+            "nama": "Hari Buruh Nasional: Kerja Keras dan Rasa Lewat Asam Daging",
+            "deskripsi": `Artikel ini membahas tentang perayaan Hari Buruh Nasional setiap 1 Mei dengan fokus pada hidangan asam daging sebagai simbol perjuangan pekerja. Asam daging dipilih karena mewakili perpaduan kerja keras (daging) dan ketangguhan (rasa asam).
+    
+    Hidangan ini menjadi metafora perjuangan buruh yang keras namun penuh makna. Artikel juga menjelaskan kandungan gizi asam daging yang memberikan energi bagi pekerja.`,
+            "image": gambar27,
+            "informasi": {
+                "makna_simbolik": `1) Daging: Representasi kerja keras
+    2) Rasa asam: Ketangguhan menghadapi tantangan
+    3) Rempah-rempah: Keberagaman pekerja
+    4) Proses memasak lama: Kesabaran perjuangan
+    5) Penyajian bersama: Solidaritas pekerja`,
+                "kegiatan_perayaan": `1) Pembagian asam daging gratis untuk buruh
+    2) Demo masak asam daging bersama
+    3) Seminar gizi pekerja
+    4) Pameran produk buruh
+    5) Lomba kreasi masakan asam daging`
+            },
+            "post": "Diposting pada 01/05/2025",
+            "kategori": "perayaan",
+            "referensi": "https://www.bigdaymart.com/2025/05/01/hari-buruh-nasional-kerja-keras-dan-rasa-lewat-asam-daging/"
+        },
+        "en": {
+            "nama": "National Labor Day: Hard Work and Flavor Through Sour Meat",
+            "deskripsi": `This article discusses the celebration of National Labor Day every May 1st, focusing on sour meat dish as a symbol of workers' struggle. The dish is chosen because it represents the combination of hard work (meat) and resilience (sour taste).
+    
+    The dish serves as a metaphor for the hard but meaningful labor struggle. The article also explains the nutritional content of sour meat that provides energy for workers.`,
+            "image": gambar27,
+            "informasi": {
+                "symbolic_meaning": `1) Meat: Representation of hard work
+    2) Sour taste: Resilience in facing challenges
+    3) Spices: Worker diversity
+    4) Long cooking process: Patience of struggle
+    5) Communal serving: Worker solidarity`,
+                "celebration_activities": `1) Free sour meat distribution for workers
+    2) Collective sour meat cooking demo
+    3) Workers' nutrition seminar
+    4) Labor products exhibition
+    5) Sour meat cooking creativity contest`
+            },
+            "post": "Posted on 05/01/2025",
+            "kategori": "celebration",
+            "referensi": "https://www.bigdaymart.com/2025/05/01/hari-buruh-nasional-kerja-keras-dan-rasa-lewat-asam-daging/"
+        },
+        "ar": {
+            "nama": "يوم العمال الوطني: العمل الجاد والطعم من خلال اللحم الحامض",
+            "deskripsi": `تناقش هذه المقالة احتفال يوم العمال الوطني في الأول من مايو من كل عام، مع التركيز على طبق اللحم الحامض كرمز لنضال العمال. تم اختيار هذا الطبق لأنه يمثل مزيجًا من العمل الجاد (اللحم) والقدرة على التحمل (الطعم الحامض).
+    
+    يخدم هذا الطبق كمجاز للنضال العمالي الشاق ولكنه ذو معنى. كما تشرح المقالة المحتوى الغذائي للحم الحامض الذي يوفر الطاقة للعمال.`,
+            "image": gambar27,
+            "informasi": {
+                "symbolic_meaning": `1) اللحم: تمثيل العمل الجاد
+    2) الطعم الحامض: الصمود في مواجهة التحديات
+    3) التوابل: تنوع العمال
+    4) عملية الطهي الطويلة: صبر النضال
+    5) التقديم الجماعي: تضامن العمال`,
+                "celebration_activities": `1) توزيع مجاني للحم الحامض للعمال
+    2) عرض طبخ جماعي للحم الحامض
+    3) ندوة تغذية العمال
+    4) معرض منتجات العمال
+    5) مسابقة إبداعات طبخ اللحم الحامض`
+            },
+            "post": "نشر على 01/05/2025",
+            "kategori": "احتفال",
+            "referensi": "https://www.bigdaymart.com/2025/05/01/hari-buruh-nasional-kerja-keras-dan-rasa-lewat-asam-daging/"
+        },
+        "zh": {
+            "nama": "全国劳动节：通过酸肉体现的辛勤劳动与滋味",
+            "deskripsi": `本文讨论了每年5月1日全国劳动节的庆祝活动，重点介绍了作为工人斗争象征的酸肉菜肴。选择这道菜是因为它代表了努力工作（肉）和韧性（酸味）的结合。
+    
+    这道菜是艰苦但有意义的劳动斗争的隐喻。文章还解释了为工人提供能量的酸肉的营养成分。`,
+            "image": gambar27,
+            "informasi": {
+                "symbolic_meaning": `1) 肉：努力工作的代表
+    2) 酸味：面对挑战的韧性
+    3) 香料：工人的多样性
+    4) 漫长的烹饪过程：斗争的耐心
+    5) 共同食用：工人团结`,
+                "celebration_activities": `1) 为工人免费分发酸肉
+    2) 集体酸肉烹饪演示
+    3) 工人营养研讨会
+    4) 劳动产品展览
+    5) 酸肉烹饪创意比赛`
+            },
+            "post": "发表于2025年5月1日",
+            "kategori": "庆祝活动",
+            "referensi": "https://www.bigdaymart.com/2025/05/01/hari-buruh-nasional-kerja-keras-dan-rasa-lewat-asam-daging/"
+        }
+    },{
         "id": {
             "nama": "Asam Biji untuk Hari Kejujuran Nasional",
             "deskripsi": `Artikel ini menjelaskan tentang manfaat asam biji (tamarind seed) dalam konteks peringatan Hari Kejujuran Nasional setiap 30 April. Asam biji dipakai sebagai metafora nilai kejujuran yang memberikan rasa segar dan transparansi dalam kehidupan bermasyarakat.

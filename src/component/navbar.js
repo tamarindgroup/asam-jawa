@@ -186,17 +186,20 @@ const Navbar = () => {
         {/* Judul Besar */}
         {!isMobile && (
           <div style={{ flex: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <Typography
-              id="title-header-1"
-              style={{
-                color: "rgb(204, 21, 21)",
-                fontSize: "40px",
-                textAlign: "center",
-              }}
-            >
-              {t("asam-jawa.text")}
-            </Typography>
-            <Typography
+          <Typography
+            id="title-header-1"
+            style={{
+              color: "rgb(204, 21, 21)",
+              fontSize: "40px",
+              textAlign: "center",
+              fontFamily: "'Book Antiqua', serif",
+              fontWeight: "bold",
+              fontStyle: "italic",
+            }}
+          >
+            {t("asam-jawa.text")}
+          </Typography>
+          <Typography
               id="title-header"
               style={{
                 color: "rgb(204, 21, 21)",
@@ -207,7 +210,8 @@ const Navbar = () => {
             >
               {t("cap-gunung.text")}
             </Typography>
-          </div>
+        </div>
+        
         )}
 
         <Toolbar style={{ backgroundColor: 'transparent' }}>

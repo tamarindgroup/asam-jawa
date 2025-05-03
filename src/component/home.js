@@ -345,7 +345,7 @@ export const Home = () => {
           <div style={headerContentStyle}>
             <Grid container spacing={2} sm={12} style={{ marginTop: "200px", display: 'flex' }}>
               <Grid item sx={4} sm={6} style={{ marginTop: isDesktop ? '100px' : '60px', width: !isDesktop ? '620px' : '400px', marginLeft: isDesktop ? '100px' : 0 }}>
-                <Typography id="text-header" style={{ fontSize: !isDesktop ? '13px' : '29px', width: !isDesktop ? '190px' : '700px' }}>
+                <Typography id="text-header" style={{ fontSize: !isDesktop ? '13px' : '29px', width: !isDesktop ? '190px' : '600px' }}>
                   {t('text-header.text')}
                 </Typography>
                 <TypeAnimation
