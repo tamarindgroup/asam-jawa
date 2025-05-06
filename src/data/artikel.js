@@ -27,9 +27,189 @@ import gambar26 from '../image/image-artikel/2025-04-30.jpg';
 import gambar27 from '../image/image-artikel/2025-05-01.png';
 import gambar28 from '../image/image-artikel/2025-05-02.jpeg';
 import gambar29 from '../image/image-artikel/2025-05-03.jpeg';
+import gambar30 from '../image/image-artikel/2025-05-05.png';
+import gambar31 from '../image/image-artikel/2025-05-06.jpg';
 
 const  dataArtikel = [
     {
+        "id": {
+            "nama": "Asam Jawa Cap Gunung: Pilihan Alami untuk Ringankan Asma",
+            "deskripsi": `Artikel ini membahas manfaat asam jawa Cap Gunung sebagai terapi komplementer untuk meredakan gejala asma. Kandungan alami dalam asam jawa seperti tartaric acid dan potassium diketahui membantu melegakan saluran pernapasan.
+    
+    Produk ini telah digunakan secara turun-temurun di Jawa Tengah sebagai obat tradisional asma. Penelitian terbaru menunjukkan ekstrak asam jawa dapat mengurangi frekuensi serangan asma hingga 40% pada penggunaan rutin.`,
+            "image": gambar31,
+            "informasi": {
+                "manfaat_kesehatan": `1) Melegakan saluran pernapasan
+    2) Mengurangi frekuensi serangan asma
+    3) Menurunkan produksi lendir berlebih
+    4) Sumber antioksidan alami
+    5) Meningkatkan daya tahan tubuh`,
+                "cara_penggunaan": `1) Larutkan 1 sdt dalam air hangat (pagi/sore)
+    2) Campur dengan madu untuk efek lebih kuat
+    3) Gunakan sebagai bumbu masakan sehari-hari
+    4) Teh asam jawa sebelum tidur
+    5) Kombinasi dengan jahe untuk hasil optimal`
+            },
+            "post": "Diposting pada 06/05/2025",
+            "kategori": "kesehatan",
+            "referensi": "https://www.bigdaymart.com/2025/05/06/asam-jawa-cap-gunung-pilihan-alami-untuk-ringankan-asma/"
+        },
+        "en": {
+            "nama": "Cap Gunung Tamarind: Natural Choice for Asthma Relief",
+            "deskripsi": `This article discusses the benefits of Cap Gunung tamarind as complementary therapy for asthma symptom relief. Natural compounds in tamarind like tartaric acid and potassium are known to help clear respiratory airways.
+    
+    This product has been used for generations in Central Java as traditional asthma remedy. Recent studies show tamarind extract can reduce asthma attack frequency by up to 40% with regular use.`,
+            "image": gambar31,
+            "informasi": {
+                "health_benefits": `1) Clears respiratory airways
+    2) Reduces asthma attack frequency
+    3) Decreases excess mucus production
+    4) Natural antioxidant source
+    5) Boosts immune system`,
+                "usage_methods": `1) Dissolve 1 tsp in warm water (morning/evening)
+    2) Mix with honey for stronger effect
+    3) Use as daily cooking ingredient
+    4) Tamarind tea before bedtime
+    5) Combine with ginger for optimal results`
+            },
+            "post": "Posted on 05/06/2025",
+            "kategori": "health",
+            "referensi": "https://www.bigdaymart.com/2025/05/06/asam-jawa-cap-gunung-pilihan-alami-untuk-ringankan-asma/"
+        },
+        "ar": {
+            "nama": "تمر هندي كاب غونونغ: خيار طبيعي لتخفيف الربو",
+            "deskripsi": `تناقش هذه المقالة فوائد تمر هندي كاب غونونغ كعلاج تكميلي لتخفيف أعراض الربو. من المعروف أن المركبات الطبيعية في التمر الهندي مثل حمض الطرطريك والبوتاسيوم تساعد في تنظيف المسالك التنفسية.
+    
+    يستخدم هذا المنتج منذ أجيال في وسط جاوة كعلاج تقليدي للربو. تظهر الدراسات الحديثة أن مستخلص التمر الهندي يمكن أن يقلل من تكرار نوبات الربو بنسبة تصل إلى 40٪ مع الاستخدام المنتظم.`,
+            "image": gambar31,
+            "informasi": {
+                "health_benefits": `1) يفتح المسالك التنفسية
+    2) يقلل من تكرار نوبات الربو
+    3) يقلل من إفراز المخاط الزائد
+    4) مصدر طبيعي لمضادات الأكسدة
+    5) يعزز جهاز المناعة`,
+                "usage_methods": `1) اذوب 1 ملعقة صغيرة في ماء دافئ (صباحًا/مساءً)
+    2) امزج مع العسل لتأثير أقوى
+    3) استخدم كمكون للطهي اليومي
+    4) شاي التمر الهندي قبل النوم
+    5) اخلط مع الزنجبيل للحصول على أفضل النتائج`
+            },
+            "post": "نشر على 06/05/2025",
+            "kategori": "صحة",
+            "referensi": "https://www.bigdaymart.com/2025/05/06/asam-jawa-cap-gunung-pilihan-alami-untuk-ringankan-asma/"
+        },
+        "zh": {
+            "nama": "Gunung牌罗望子：缓解哮喘的天然选择",
+            "deskripsi": `本文讨论了Gunung牌罗望子作为辅助疗法缓解哮喘症状的益处。已知罗望子中的天然成分如酒石酸和钾有助于清理呼吸道。
+    
+    该产品在中爪哇世代被用作传统哮喘疗法。最新研究表明，定期使用罗望子提取物可将哮喘发作频率降低高达40%。`,
+            "image": gambar31,
+            "informasi": {
+                "health_benefits": `1) 清理呼吸道
+    2) 减少哮喘发作频率
+    3) 减少过量黏液产生
+    4) 天然抗氧化剂来源
+    5) 增强免疫系统`,
+                "usage_methods": `1) 将1茶匙溶解于温水中（早晚）
+    2) 与蜂蜜混合增强效果
+    3) 作为日常烹饪原料使用
+    4) 睡前饮用罗望子茶
+    5) 与生姜搭配使用效果最佳`
+            },
+            "post": "发表于2025年5月6日",
+            "kategori": "健康",
+            "referensi": "https://www.bigdaymart.com/2025/05/06/asam-jawa-cap-gunung-pilihan-alami-untuk-ringankan-asma/"
+        }
+    }, {
+        "id": {
+            "nama": "Kulit Tahu Bunga Merah: Inovasi UMKM Lembaga Sosial Desa",
+            "deskripsi": `Artikel ini mengangkat inovasi kulit tahu Bunga Merah hasil karya UMKM binaan Lembaga Sosial Desa di Jawa Barat. Produk ini memadukan tradisi pembuatan tahu dengan pewarna alami dari bunga rosella, menciptakan kulit tahu dengan warna merah alami dan kandungan antioksidan tinggi.
+    
+    Inovasi sosial ini tidak hanya menghasilkan produk bernilai jual, tetapi juga memberdayakan perempuan desa dan menyediakan alternatif pangan sehat bagi masyarakat.`,
+            "image": gambar30,
+            "informasi": {
+                "keunikan": `1) Warna merah alami dari ekstrak rosella
+    2) Kandungan antioksidan 3x lebih tinggi
+    3) Tekstur lebih kenyal dengan teknik tradisional
+    4) Tanpa bahan pengawet dan pewarna sintetik
+    5) Rasa sedikit asam segar khas rosella`,
+                "dampak_sosial": `1) Memberdayakan 15 ibu rumah tangga
+    2) Menyediakan 20 paket sembako gratis/bulan
+    3) Dana pendidikan untuk 5 anak kurang mampu
+    4) Pelatihan kewirausahaan untuk pemuda desa
+    5) Program daur ulang limbah tahu`
+            },
+            "post": "Diposting pada 05/05/2025",
+            "kategori": "sosial",
+            "referensi": "https://www.bigdaymart.com/2025/05/05/kulit-tahu-bunga-merah-inovasi-umkm-lembaga-sosial-desa/"
+        },
+        "en": {
+            "nama": "Red Flower Tofu Skin: Village Social Enterprise's SME Innovation",
+            "deskripsi": `This article highlights the Red Flower tofu skin innovation created by an SME mentored by a Village Social Institution in West Java. This product combines traditional tofu-making techniques with natural coloring from rosella flowers, creating naturally red tofu skin with high antioxidant content.
+    
+    This social innovation not only produces marketable products but also empowers village women and provides healthy food alternatives for the community.`,
+            "image": gambar30,
+            "informasi": {
+                "uniqueness": `1) Natural red color from rosella extract
+    2) 3x higher antioxidant content
+    3) Chewier texture with traditional technique
+    4) No preservatives or synthetic coloring
+    5) Slightly fresh sour taste from rosella`,
+                "social_impact": `1) Empowers 15 housewives
+    2) Provides 20 free staple food packages/month
+    3) Education fund for 5 underprivileged children
+    4) Entrepreneurship training for village youth
+    5) Tofu waste recycling program`
+            },
+            "post": "Posted on 05/05/2025",
+            "kategori": "social",
+            "referensi": "https://www.bigdaymart.com/2025/05/05/kulit-tahu-bunga-merah-inovasi-umkm-lembaga-sosial-desa/"
+        },
+        "ar": {
+            "nama": "جلد التوفو زهرة حمراء: ابتكار لمشروع صغير بقيادة مؤسسة اجتماعية قروية",
+            "deskripsi": `تسلط هذه المقالة الضوء على ابتكار جلد التوفو زهرة حمراء من إنتاج مشروع صغير تحت إشراف مؤسسة اجتماعية قروية في غرب جاوة. يجمع هذا المنتج بين تقنيات صنع التوفو التقليدية والتلوين الطبيعي من زهور الروزيلا، لينتج جلد توفو أحمر طبيعيًا غنيًا بمضادات الأكسدة.
+    
+    هذا الابتكار الاجتماعي لا ينتج فقط منتجات قابلة للتسويق، بل يمكن نساء القرية ويوفر بدائل غذائية صحية للمجتمع.`,
+            "image": gambar30,
+            "informasi": {
+                "uniqueness": `1) لون أحمر طبيعي من مستخلص الروزيلا
+    2) محتوى مضادات أكسدة أعلى بثلاث مرات
+    3) قوام أكثر مطاطية بتقنية تقليدية
+    4) بدون مواد حافظة أو ألوان صناعية
+    5) طعم حامض منعش من الروزيلا`,
+                "social_impact": `1) تمكين 15 ربة منزل
+    2) توفير 20 حزمة غذائية مجانية شهريًا
+    3) تمويل تعليمي لـ5 أطفال معوزين
+    4) تدريب ريادي لشباب القرية
+    5) برنامج إعادة تدوير مخلفات التوفو`
+            },
+            "post": "نشر على 05/05/2025",
+            "kategori": "اجتماعي",
+            "referensi": "https://www.bigdaymart.com/2025/05/05/kulit-tahu-bunga-merah-inovasi-umkm-lembaga-sosial-desa/"
+        },
+        "zh": {
+            "nama": "红花豆腐皮：乡村社会机构中小微企业的创新",
+            "deskripsi": `本文重点介绍了西爪哇乡村社会机构指导的中小微企业创新的红花豆腐皮。该产品将传统豆腐制作工艺与洛神花的天然色素相结合，创造出具有天然红色和高抗氧化成分的豆腐皮。
+    
+    这一社会创新不仅生产出适销对路的产品，还赋能乡村妇女，并为社区提供健康食品替代品。`,
+            "image": gambar30,
+            "informasi": {
+                "uniqueness": `1) 来自洛神花提取物的天然红色
+    2) 抗氧化成分高出3倍
+    3) 传统技术带来更劲道的口感
+    4) 不含防腐剂和合成色素
+    5) 洛神花特有的微酸清新味道`,
+                "social_impact": `1) 赋能15位家庭主妇
+    2) 每月提供20份免费主食套餐
+    3) 为5名贫困儿童提供教育基金
+    4) 为乡村青年提供创业培训
+    5) 豆腐废料回收计划`
+            },
+            "post": "发表于2025年5月5日",
+            "kategori": "社会",
+            "referensi": "https://www.bigdaymart.com/2025/05/05/kulit-tahu-bunga-merah-inovasi-umkm-lembaga-sosial-desa/"
+        }
+    }, {
         "id": {
             "nama": "Kulit Tahu Soyami: Bintang Baru di JIExpo 2025",
             "deskripsi": `Artikel ini mengangkat inovasi kulit tahu Soyami yang menjadi sorotan utama dalam Jakarta International Expo (JIExpo) 2025. Produk ini menawarkan tekstur unik dan kandungan protein tinggi yang berasal dari kedelai pilihan.
