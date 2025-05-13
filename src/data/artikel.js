@@ -29,9 +29,99 @@ import gambar28 from '../image/image-artikel/2025-05-02.jpeg';
 import gambar29 from '../image/image-artikel/2025-05-03.jpeg';
 import gambar30 from '../image/image-artikel/2025-05-05.png';
 import gambar31 from '../image/image-artikel/2025-05-06.jpg';
+import gambar32 from '../image/image-artikel/2025-05-13.jpeg';
 
 const  dataArtikel = [
     {
+        "id": {
+            "nama": "Asam Jawa-Daging: Cita Rasa Khas Mengangkat Kuliner Garut",
+            "deskripsi": `Artikel ini mengulas keunikan masakan asam jawa-daging khas Garut yang menjadi ikon kuliner daerah tersebut. Perpaduan daging sapi kualitas premium dengan asam jawa gunung lokal menciptakan harmoni rasa gurih, asam, dan sedikit pedas yang khas.
+    
+    Resep turun-temurun ini telah dikembangkan selama tiga generasi, dengan teknik pemasakan slow cooking selama 8 jam yang membuat daging sangat empuk dan meresap bumbu sempurna. Kini menjadi salah satu kuliner wajib coba bagi wisatawan yang berkunjung ke Garut.`,
+            "image": gambar32,
+            "informasi": {
+                "ciri_khas": `1) Kombinasi asam jawa gunung pilihan
+    2) Daging sapi bagian paha atas
+    3) Proses slow cooking 8 jam
+    4) Rempah-rempah racikan khusus
+    5) Sentuhan akhir daun jeruk purut`,
+                "tempat_terkenal": `1) Warung Legendaris Hj. Enok
+    2) RM Sari Rasa Puncak
+    3) Kedai Asam Jawa Pak Darma
+    4) Depot Ibu Imas
+    5) Warung Makan Cibiuk`
+            },
+            "post": "Diposting pada 13/05/2025",
+            "kategori": "kuliner",
+            "referensi": "https://www.bigdaymart.com/2025/05/13/asam-jawa-daging-cita-rasa-khas-mengangkat-kuliner-garut/"
+        },
+        "en": {
+            "nama": "Tamarind-Beef: Signature Dish Elevating Garut's Cuisine",
+            "deskripsi": `This article explores the uniqueness of Garut's signature tamarind-beef dish that has become the region's culinary icon. The combination of premium quality beef with local mountain tamarind creates a distinctive harmony of savory, sour, and slightly spicy flavors.
+    
+    This heirloom recipe has been developed over three generations, featuring an 8-hour slow cooking technique that makes the meat extremely tender and perfectly infused with spices. It has now become a must-try culinary experience for visitors to Garut.`,
+            "image": gambar32,
+            "informasi": {
+                "characteristics": `1) Combination of select mountain tamarind
+    2) Premium beef top round cut
+    3) 8-hour slow cooking process
+    4) Special blend of spices
+    5) Final touch of kaffir lime leaves`,
+                "famous_places": `1) Legendary Hj. Enok's Stall
+    2) Sari Rasa Puncak Restaurant
+    3) Pak Darma's Tamarind Eatery
+    4) Ibu Imas' Depot
+    5) Cibiuk Dining Stall`
+            },
+            "post": "Posted on 05/13/2025",
+            "kategori": "culinary",
+            "referensi": "https://www.bigdaymart.com/2025/05/13/asam-jawa-daging-cita-rasa-khas-mengangkat-kuliner-garut/"
+        },
+        "ar": {
+            "nama": "لحم بالتمر الهندي: نكهة مميزة ترفع مكانة مطبخ غاروت",
+            "deskripsi": `تستعرض هذه المقالة تفرد طبق اللحم بالتمر الهندي المميز لغاروت الذي أصبح أيقونة الطهي الإقليمية. يجمع الطبق بين لحم البقر عالي الجودة والتمر الهندي الجبلي المحلي لخلق تناغم مميز من النكهات اللذيذة والحامضة والحارة قليلاً.
+    
+    هذه الوصفة العائلية تم تطويرها عبر ثلاثة أجيال، وتتميز بتقنية الطهي البطيء لمدة 8 ساعات مما يجعل اللحم طرياً جداً ومشبعاً بالبهارات بشكل مثالي. أصبح الآن تجربة طهي يجب تجربتها للزوار في غاروت.`,
+            "image": gambar32,
+            "informasi": {
+                "characteristics": `1) مزيج من التمر الهندي الجبلي المختار
+    2) قطع لحم بقر علوي متميز
+    3) عملية طهي بطيء لمدة 8 ساعات
+    4) مزيج خاص من التوابل
+    5) لمسة نهائية من أوراق الليمون الكفيري`,
+                "famous_places": `1) كشك الحاج إنوك الأسطوري
+    2) مطعم ساري راسا بونكاك
+    3) مطعم التمر الهندي لـ"باك دارما"
+    4) مطعم "إيبو إيماس"
+    5) كشك طعام "سيبيوك"`
+            },
+            "post": "نشر على 13/05/2025",
+            "kategori": "الطهي",
+            "referensi": "https://www.bigdaymart.com/2025/05/13/asam-jawa-daging-cita-rasa-khas-mengangkat-kuliner-garut/"
+        },
+        "zh": {
+            "nama": "罗望子炖牛肉：提升Garut美食特色的招牌菜",
+            "deskripsi": `本文探讨了Garut地区标志性的罗望子炖牛肉菜肴的独特之处，该菜已成为当地的美食象征。优质牛肉与当地山区罗望子的组合创造了咸味、酸味和微辣风味的独特和谐。
+    
+    这道祖传食谱经过三代人的改良，采用8小时慢煮技术，使肉质极其嫩滑并完美吸收香料。现已成为前往Garut的游客必尝的美食体验。`,
+            "image": gambar32,
+            "informasi": {
+                "characteristics": `1) 精选山区罗望子的组合
+    2) 优质牛腿肉
+    3) 8小时慢煮工艺
+    4) 特殊混合香料
+    5) 最后加入箭叶橙叶`,
+                "famous_places": `1) 传奇的Hj. Enok小吃摊
+    2) Sari Rasa Puncak餐厅
+    3) Pak Darma罗望子餐馆
+    4) Ibu Imas美食店
+    5) Cibiuk餐饮摊`
+            },
+            "post": "发表于2025年5月13日",
+            "kategori": "美食",
+            "referensi": "https://www.bigdaymart.com/2025/05/13/asam-jawa-daging-cita-rasa-khas-mengangkat-kuliner-garut/"
+        }
+    },{
         "id": {
             "nama": "Asam Jawa Cap Gunung: Pilihan Alami untuk Ringankan Asma",
             "deskripsi": `Artikel ini membahas manfaat asam jawa Cap Gunung sebagai terapi komplementer untuk meredakan gejala asma. Kandungan alami dalam asam jawa seperti tartaric acid dan potassium diketahui membantu melegakan saluran pernapasan.
