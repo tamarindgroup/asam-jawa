@@ -30,9 +30,99 @@ import gambar29 from '../image/image-artikel/2025-05-03.jpeg';
 import gambar30 from '../image/image-artikel/2025-05-05.png';
 import gambar31 from '../image/image-artikel/2025-05-06.jpg';
 import gambar32 from '../image/image-artikel/2025-05-13.jpeg';
+import gambar33 from '../image/image-artikel/2025-05-14.jpg';
 
 const  dataArtikel = [
     {
+        "id": {
+            "nama": "Supply Asam Daging: Bumbu Cinta dari Dapur Digital",
+            "deskripsi": `Artikel ini mengungkap inovasi digital dalam penyediaan bahan baku asam daging melalui platform online. Supply Asam Daging menghubungkan petani asam jawa langsung dengan restoran dan pelaku kuliner, memangkas rantai pasok tradisional hingga 60%.
+
+    Dengan teknologi blockchain, sistem ini menjamin kualitas dan keaslian rempah-rempah, sekaligus meningkatkan pendapatan petani lokal sebesar 30%. Revolusi digital ini membawa cita rasa tradisional ke era modern dengan efisiensi maksimal.`,
+            "image": gambar33,
+            "informasi": {
+                "fitur_unggulan": `1) Sistem pemesanan real-time 24/7
+    2) Traceability bahan baku via blockchain
+    3) Harga langsung dari petani
+    4) Pengiriman dingin khusus bumbu
+    5) Paket lengkap rempah pendamping`,
+                "dampak_sosial": `1) Meningkatkan pendapatan 500+ petani
+    2) Mengurangi food waste hingga 40%
+    3) Program pelatihan digital untuk UMKM
+    4) Mendukung 50+ warung tradisional
+    5) Beasiswa pendidikan anak petani`
+            },
+            "post": "Diposting pada 14/05/2025",
+            "kategori": "teknologi",
+            "referensi": "https://www.bigdaymart.com/2025/05/14/supply-asam-daging-bumbu-cinta-dari-dapur-digital/"
+        },
+        "en": {
+            "nama": "Supply Asam Daging: Digital Kitchen's Spice of Love",
+            "deskripsi": `This article reveals digital innovation in supplying ingredients for asam daging (tamarind beef) through online platforms. Supply Asam Daging directly connects tamarind farmers with restaurants and culinary players, cutting traditional supply chains by 60%.
+
+    With blockchain technology, the system guarantees spice quality and authenticity while increasing local farmers' income by 30%. This digital revolution brings traditional flavors to the modern era with maximum efficiency.`,
+            "image": gambar33,
+            "informasi": {
+                "key_features": `1) 24/7 real-time ordering system
+    2) Raw material traceability via blockchain
+    3) Direct pricing from farmers
+    4) Special cold spice delivery
+    5) Complete complementary spice packages`,
+                "social_impact": `1) Increased income for 500+ farmers
+    2) Reduced food waste by 40%
+    3) Digital training for SMEs
+    4) Supports 50+ traditional eateries
+    5) Education scholarships for farmers' children`
+            },
+            "post": "Posted on 05/14/2025",
+            "kategori": "technology",
+            "referensi": "https://www.bigdaymart.com/2025/05/14/supply-asam-daging-bumbu-cinta-dari-dapur-digital/"
+        },
+        "ar": {
+            "nama": "سابلاي آصام دانق: بهارات الحب من المطبخ الرقمي",
+            "deskripsi": `تكشف هذه المقالة عن الابتكار الرقمي في توريد مكونات طبق اللحم بالتمر الهندي عبر المنصات الإلكترونية. يقوم "سابلاي آصام دانق" بربط مزارعي التمر الهندي مباشرة مع المطاعم والعاملين في مجال الطهي، مما يختصر سلاسل التوريد التقليدية بنسبة 60%.
+
+    باستخدام تقنية البلوك تشين، يضمن النظام جودة البهارات وأصالتها مع زيادة دخل المزارعين المحليين بنسبة 30%. تجلب هذه الثورة الرقمية النكهات التقليدية إلى العصر الحديث بأقصى كفاءة.`,
+            "image": gambar33,
+            "informasi": {
+                "key_features": `1) نظام طلب فوري على مدار الساعة
+    2) تتبع المواد الخام عبر البلوك تشين
+    3) تسعير مباشر من المزارعين
+    4) توصيل مبرد خاص للبهارات
+    5) حزم بهارات تكميلية كاملة`,
+                "social_impact": `1) زيادة دخل 500+ مزارع
+    2) تقليل الهدر الغذائي بنسبة 40%
+    3) تدريب رقمي للمشاريع الصغيرة
+    4) دعم 50+ مطعم تقليدي
+    5) منح تعليمية لأبناء المزارعين`
+            },
+            "post": "نشر على 14/05/2025",
+            "kategori": "التكنولوجيا",
+            "referensi": "https://www.bigdaymart.com/2025/05/14/supply-asam-daging-bumbu-cinta-dari-dapur-digital/"
+        },
+        "zh": {
+            "nama": "Supply Asam Daging：来自数字厨房的爱之香料",
+            "deskripsi": `本文揭示了通过在线平台供应罗望子牛肉原料的数字创新。Supply Asam Daging直接将罗望子种植者与餐厅和餐饮从业者联系起来，将传统供应链缩短60%。
+
+    借助区块链技术，该系统保证了香料的质量和真实性，同时使当地农民收入增加30%。这场数字革命以最高效率将传统风味带入现代时代。`,
+            "image": gambar33,
+            "informasi": {
+                "key_features": `1) 24/7实时订购系统
+    2) 通过区块链追溯原材料
+    3) 直接从农民定价
+    4) 特殊冷藏香料配送
+    5) 完整配套香料包`,
+                "social_impact": `1) 为500多名农民增加收入
+    2) 减少40%的食物浪费
+    3) 为中小企业提供数字培训
+    4) 支持50多家传统餐馆
+    5) 为农民子女提供教育奖学金`
+            },
+            "post": "发表于2025年5月14日",
+            "kategori": "技术",
+            "referensi": "https://www.bigdaymart.com/2025/05/14/supply-asam-daging-bumbu-cinta-dari-dapur-digital/"
+        }
+    }, {
         "id": {
             "nama": "Asam Jawa-Daging: Cita Rasa Khas Mengangkat Kuliner Garut",
             "deskripsi": `Artikel ini mengulas keunikan masakan asam jawa-daging khas Garut yang menjadi ikon kuliner daerah tersebut. Perpaduan daging sapi kualitas premium dengan asam jawa gunung lokal menciptakan harmoni rasa gurih, asam, dan sedikit pedas yang khas.
