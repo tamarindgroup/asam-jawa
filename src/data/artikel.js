@@ -31,9 +31,99 @@ import gambar30 from '../image/image-artikel/2025-05-05.png';
 import gambar31 from '../image/image-artikel/2025-05-06.jpg';
 import gambar32 from '../image/image-artikel/2025-05-13.jpeg';
 import gambar33 from '../image/image-artikel/2025-05-14.jpg';
+import gambar34 from '../image/image-artikel/2025-05-15.jpg';
 
 const  dataArtikel = [
     {
+        "id": {
+            "nama": "Asam Biji Bunga Merah: Cita Rasa Lokal Bersama Garuda ID",
+            "deskripsi": `Artikel ini mengumumkan kolaborasi eksklusif antara produsen asam biji bunga merah tradisional dengan Garuda Indonesia untuk menyajikan rasa lokal dalam penerbangan internasional. Ramuan khusus ini akan menjadi bahan utama dalam menu premium kelas bisnis mulai Juni 2025.
+
+    Kombinasi unik asam biji rosella dengan rempah-rempah nusantara ini dipilih karena keseimbangan rasa dan manfaat kesehatannya, sekaligus memperkenalkan kekayaan kuliner Indonesia kepada dunia. Produk ini diproduksi oleh UMKM lokal dengan standar keamanan pangan penerbangan internasional.`,
+            "image": gambar34,
+            "informasi": {
+                "keunggulan": `1) Ramuan eksklusif dari 7 rempah nusantara
+    2) Proses produksi berstandar HACCP
+    3) Kemasan vakum tahan tekanan udara
+    4) Sertifikasi halal internasional
+    5) Tanpa pengawet kimia`,
+                "menu_rekomendasi": `1) Beef Rendang with Rosella Glaze
+    2) Sup Buntut Asam Biji Khas
+    3) Salad Buah Dressing Bunga Merah
+    4) Mocktail Signature Garuda ID
+    5) Dessert Trilogy with Tamarind Twist`
+            },
+            "post": "Diposting pada 15/05/2025",
+            "kategori": "kolaborasi",
+            "referensi": "https://www.bigdaymart.com/2025/05/15/asam-biji-bunga-merah-cita-rasa-lokal-bersama-garuda-id/"
+        },
+        "en": {
+            "nama": "Red Flower Tamarind Seed: Local Flavor with Garuda ID",
+            "deskripsi": `This article announces an exclusive collaboration between traditional red flower tamarind seed producers and Garuda Indonesia to feature local flavors in international flights. This special blend will be a key ingredient in premium business class menus starting June 2025.
+
+    The unique combination of rosella tamarind seeds with Indonesian spices was selected for its balanced flavor and health benefits, while introducing Indonesia's culinary wealth to the world. The product is produced by local SMEs meeting international aviation food safety standards.`,
+            "image": gambar34,
+            "informasi": {
+                "advantages": `1) Exclusive blend of 7 Indonesian spices
+    2) HACCP-standard production process
+    3) Vacuum packaging resistant to air pressure
+    4) International halal certification
+    5) No chemical preservatives`,
+                "recommended_menu": `1) Beef Rendang with Rosella Glaze
+    2) Signature Oxtail Soup with Tamarind
+    3) Fruit Salad with Red Flower Dressing
+    4) Garuda ID Signature Mocktail
+    5) Dessert Trilogy with Tamarind Twist`
+            },
+            "post": "Posted on 05/15/2025",
+            "kategori": "collaboration",
+            "referensi": "https://www.bigdaymart.com/2025/05/15/asam-biji-bunga-merah-cita-rasa-lokal-bersama-garuda-id/"
+        },
+        "ar": {
+            "nama": "بذور التمر الهندي زهرة حمراء: نكهة محلية مع غارودا إندونيسيا",
+            "deskripsi": `يعلن هذا المقال عن تعاون حصري بين منتجي بذور التمر الهندي التقليدية وزهرة حمراء مع غارودا إندونيسيا لتقديم النكهات المحلية في الرحلات الدولية. سيكون هذا المزيج الخاص مكونًا رئيسيًا في قوائم درجة رجال الأعمال المميزة بدءًا من يونيو 2025.
+
+    تم اختيار المزيج الفريد من بذور التمر الهندي الوردي مع توابل إندونيسيا لتوازن نكهته وفوائده الصحية، مع تعريف العالم بثروة إندونيسيا الطهي. ينتج هذا المنتج من قبل المشاريع الصغيرة المحلية التي تلبي معايير سلامة الأغذية للطيران الدولي.`,
+            "image": gambar34,
+            "informasi": {
+                "advantages": `1) مزيج حصري من 7 توابل إندونيسية
+    2) عملية إنتاج بمعايير HACCP
+    3) تغليف مفرغ من الهواء مقاوم لضغط الطيران
+    4) شهادة حلال دولية
+    5) بدون مواد حافظة كيميائية`,
+                "recommended_menu": `1) ريندانغ لحم البقر مع صوص زهرة حمراء
+    2) شوربة ذيل ثور مميزة مع تمر هندي
+    3) سلطة فواكه بصوص الزهرة الحمراء
+    4) مشروب غارودا المميز بدون كحول
+    5) ثلاثية حلويات مع لمسة تمر هندي`
+            },
+            "post": "نشر على 15/05/2025",
+            "kategori": "تعاون",
+            "referensi": "https://www.bigdaymart.com/2025/05/15/asam-biji-bunga-merah-cita-rasa-lokal-bersama-garuda-id/"
+        },
+        "zh": {
+            "nama": "红花罗望子籽：与Garuda ID合作的本地风味",
+            "deskripsi": `本文宣布传统红花罗望子籽生产商与印尼鹰航的独家合作，将在国际航班上呈现本地风味。这种特殊混合物将成为2025年6月起商务舱高级菜单的关键原料。
+
+    精选洛神花罗望子籽与印尼香料的独特组合因其平衡的风味和健康益处而被选中，同时向世界介绍印尼的烹饪财富。该产品由符合国际航空食品安全标准的当地中小企业生产。`,
+            "image": gambar34,
+            "informasi": {
+                "advantages": `1) 7种印尼香料的独家配方
+    2) HACCP标准生产过程
+    3) 耐气压真空包装
+    4) 国际清真认证
+    5) 不含化学防腐剂`,
+                "recommended_menu": `1) 洛神花釉料牛肉仁当
+    2) 招牌罗望子牛尾汤
+    3) 红花酱水果沙拉
+    4) 鹰航特色无酒精鸡尾酒
+    5) 罗望子风味甜点三重奏`
+            },
+            "post": "发表于2025年5月15日",
+            "kategori": "合作",
+            "referensi": "https://www.bigdaymart.com/2025/05/15/asam-biji-bunga-merah-cita-rasa-lokal-bersama-garuda-id/"
+        }
+    }, {
         "id": {
             "nama": "Supply Asam Daging: Bumbu Cinta dari Dapur Digital",
             "deskripsi": `Artikel ini mengungkap inovasi digital dalam penyediaan bahan baku asam daging melalui platform online. Supply Asam Daging menghubungkan petani asam jawa langsung dengan restoran dan pelaku kuliner, memangkas rantai pasok tradisional hingga 60%.
