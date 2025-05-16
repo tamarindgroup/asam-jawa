@@ -32,9 +32,99 @@ import gambar31 from '../image/image-artikel/2025-05-06.jpg';
 import gambar32 from '../image/image-artikel/2025-05-13.jpeg';
 import gambar33 from '../image/image-artikel/2025-05-14.jpg';
 import gambar34 from '../image/image-artikel/2025-05-15.jpg';
+import gambar35 from '../image/image-artikel/2025-05-16.jpg';
 
 const  dataArtikel = [
     {
+        "id": {
+            "nama": "Asam Jawa 150: Komoditas Terangi Cahaya Internasional",
+            "deskripsi": `Artikel ini mengulas pencapaian ekspor asam jawa Indonesia yang menembus 150 negara, menjadikannya salah satu komoditas unggulan yang memperkuat citra Indonesia di kancah global. Varietas asam jawa gunung khusus ini telah mendapatkan sertifikasi internasional untuk kualitas dan keunikannya.
+
+    Peningkatan 300% dalam volume ekspor selama 5 tahun terakhir menunjukkan tingginya permintaan global akan rempah tradisional Indonesia. Keberhasilan ini juga berdampak positif pada kesejahteraan 50.000 petani lokal di 15 provinsi.`,
+            "image": gambar35,
+            "informasi": {
+                "prestasi": `1) Ekspor ke 150 negara
+    2) Pertumbuhan 300% dalam 5 tahun
+    3) 15 sertifikasi internasional
+    4) Dukung 50.000 petani lokal
+    5) 3 penghargaan kualitas global`,
+                "negara_utama": `1) Jepang (standar premium)
+    2) Jerman (produk organik)
+    3) Amerika Serikat (pasar terbesar)
+    4) Uni Emirat Arab (halal premium)
+    5) Korea Selatan (kesehatan)`
+            },
+            "post": "Diposting pada 16/05/2025",
+            "kategori": "bisnis",
+            "referensi": "https://www.bigdaymart.com/2025/05/16/asam-jawa-150-komoditas-terangi-cahaya-internasional/"
+        },
+        "en": {
+            "nama": "Tamarind 150: Commodity Shines on International Stage",
+            "deskripsi": `This article examines Indonesia's tamarind export achievement reaching 150 countries, making it one of the flagship commodities strengthening Indonesia's global image. This special mountain tamarind variety has obtained international certifications for its quality and uniqueness.
+
+    A 300% increase in export volume over the last 5 years demonstrates high global demand for Indonesian traditional spices. This success also positively impacts the welfare of 50,000 local farmers across 15 provinces.`,
+            "image": gambar35,
+            "informasi": {
+                "achievements": `1) Exports to 150 countries
+    2) 300% growth in 5 years
+    3) 15 international certifications
+    4) Supports 50,000 local farmers
+    5) 3 global quality awards`,
+                "top_markets": `1) Japan (premium standard)
+    2) Germany (organic products)
+    3) United States (largest market)
+    4) UAE (halal premium)
+    5) South Korea (health segment)`
+            },
+            "post": "Posted on 05/16/2025",
+            "kategori": "business",
+            "referensi": "https://www.bigdaymart.com/2025/05/16/asam-jawa-150-komoditas-terangi-cahaya-international/"
+        },
+        "ar": {
+            "nama": "تمر هندي 150: سلعة تضيء على الساحة الدولية",
+            "deskripsi": `يتناول هذا المقال إنجاز تصدير التمر الهندي الإندونيسي الذي وصل إلى 150 دولة، مما جعله أحد السلع الرائدة التي تعزز صورة إندونيسيا عالميًا. حصل هذا النوع الخاص من تمر هندي الجبل على شهادات دولية لجودته وتميزه.
+
+    زيادة حجم الصادرات بنسبة 300٪ خلال السنوات الخمس الماضية تظهر الطلب العالمي الكبير على التوابل الإندونيسية التقليدية. لهذا النجاح أيضًا تأثير إيجابي على رفاهية 50000 مزارع محلي في 15 مقاطعة.`,
+            "image": gambar35,
+            "informasi": {
+                "achievements": `1) التصدير إلى 150 دولة
+    2) نمو 300٪ في 5 سنوات
+    3) 15 شهادة دولية
+    4) دعم 50000 مزارع محلي
+    5) 3 جوائز جودة عالمية`,
+                "top_markets": `1) اليابان (معايير مميزة)
+    2) ألمانيا (منتجات عضوية)
+    3) الولايات المتحدة (أكبر سوق)
+    4) الإمارات (منتجات حلال مميزة)
+    5) كوريا الجنوبية (قطاع الصحة)`
+            },
+            "post": "نشر على 16/05/2025",
+            "kategori": "أعمال",
+            "referensi": "https://www.bigdaymart.com/2025/05/16/asam-jawa-150-komoditas-terangi-cahaya-international/"
+        },
+        "zh": {
+            "nama": "罗望子150：在国际舞台大放异彩的商品",
+            "deskripsi": `本文探讨了印尼罗望子出口至150个国家的成就，使其成为增强印尼全球形象的代表性商品之一。这种特殊的山地罗望子品种因其质量和独特性已获得国际认证。
+
+    过去5年出口量增长300%，显示全球对印尼传统香料的高需求。这一成功还对15个省50,000名当地农民的福祉产生了积极影响。`,
+            "image": gambar35,
+            "informasi": {
+                "achievements": `1) 出口至150个国家
+    2) 5年内增长300%
+    3) 15项国际认证
+    4) 支持50,000名当地农民
+    5) 3项全球质量奖项`,
+                "top_markets": `1) 日本(高端标准)
+    2) 德国(有机产品)
+    3) 美国(最大市场)
+    4) 阿联酋(清真高端)
+    5) 韩国(健康领域)`
+            },
+            "post": "发表于2025年5月16日",
+            "kategori": "商业",
+            "referensi": "https://www.bigdaymart.com/2025/05/16/asam-jawa-150-komoditas-terangi-cahaya-international/"
+        }
+    }, {
         "id": {
             "nama": "Asam Biji Bunga Merah: Cita Rasa Lokal Bersama Garuda ID",
             "deskripsi": `Artikel ini mengumumkan kolaborasi eksklusif antara produsen asam biji bunga merah tradisional dengan Garuda Indonesia untuk menyajikan rasa lokal dalam penerbangan internasional. Ramuan khusus ini akan menjadi bahan utama dalam menu premium kelas bisnis mulai Juni 2025.
