@@ -19,8 +19,8 @@ import ReactWhatsapp from 'react-whatsapp';
 import { SiShopee } from 'react-icons/si';
 import LogoTokped from '../image/logo-tokped.png';
 import Container from '@mui/material/Container';
-import IconAsam from '../image/250gr.jpg';
-import IconAsam2 from '../image/150gr.jpg';
+import IconAsam from '../image/250gr.jpeg';
+import IconAsam2 from '../image/150gr.jpeg';
 import IconAsam3 from '../image/75gr.jpg';
 import IconCompany from '../image/company-asam-gunung.jpeg';
 import BackgroundContent from '../image/DaunGugur2.gif';
@@ -159,6 +159,16 @@ export const Home = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+    // letakkan di atas komponen atau di luar return()
+    const productImgStyle = {
+      width: '100%',
+      height: '100%',
+      objectFit: 'contain', // ⟵ jaga rasio; tak “gepeng”
+      borderRadius: 10,
+      marginBottom: 20
+    };
+
 
     const formData = useRef();
   
@@ -634,17 +644,28 @@ export const Home = () => {
         <Typography id='deskripsi-produk-kami' style={{
                 textAlign: 'left', fontSize: '18px', width: isDesktop ? '400px' : '300px', paddingTop: '50px'
               }}>
-                1. <strong>Kualitas Produk Terjamin:</strong> Kami hanya menyediakan asam jawa dengan kualitas terbaik, yang telah melalui proses seleksi yang ketat. Produk kami memiliki rasa dan tekstur yang konsisten, sehingga dapat memenuhi standar yang Anda butuhkan.
-                <br /><br />
-                2. <strong>Harga Kompetitif:</strong> Sebagai produsen dan supplier langsung, kami dapat menawarkan harga yang sangat kompetitif di pasar. Kami memastikan Anda mendapatkan harga yang sesuai dengan kualitas produk yang Anda terima.
-                <br /><br />
-                3. <strong>Stok Terjamin dan Ketersediaan:</strong> Kami memiliki stok asam jawa yang cukup besar dan siap memenuhi kebutuhan bisnis Anda, baik dalam jumlah kecil maupun besar. Dengan sistem pengelolaan stok yang efisien, Anda tidak perlu khawatir kehabisan pasokan.
-                <br /><br />
-                4. <strong>Layanan Pengiriman Efisien:</strong> Kami menyediakan layanan pengiriman yang cepat dan dapat diandalkan, dengan pengiriman tepat waktu ke lokasi Anda. Kami berkomitmen untuk menjaga kelancaran distribusi produk ke seluruh wilayah.
-                <br /><br />
-                5. <strong>Fleksibilitas dalam Pembelian:</strong> Kami mendukung berbagai skala pembelian, baik untuk bisnis kecil, menengah, maupun besar. Anda bisa memilih sesuai dengan kebutuhan dan kapasitas bisnis Anda.
-                <br /><br />
-                6. <strong>Hubungan Bisnis yang Solid:</strong> Kami berkomitmen untuk membangun hubungan jangka panjang dengan pelanggan kami, dengan memberikan layanan yang profesional dan solusi terbaik untuk setiap permintaan.
+                1. <strong>Kualitas Asam Jawa Terjamin</strong><br />
+                    Hanya buah pilihan yang lolos proses seleksi ketat, sehingga rasa dan teksturnya konsisten di setiap pengiriman.
+                    <br /><br />
+
+                2.  <strong>Harga Produsen yang Kompetitif</strong><br />
+                    Tanpa perantara: Anda memperoleh harga terbaik yang sepadan dengan mutu produk.
+                    <br /><br />
+
+                3.  <strong>Stok Stabil & Siap Kirim</strong><br />
+                    Gudang berkapasitas besar dan manajemen stok terukur memastikan pasokan aman, baik untuk order kiloan maupun tonase.
+                    <br /><br />
+
+                4.  <strong>Pengiriman Tepat Waktu</strong><br />
+                    Armada sendiri dan mitra logistik tepercaya menjamin distribusi cepat ke seluruh wilayah Indonesia.
+                    <br /><br />
+
+                5.  <strong>Skema Pembelian Fleksibel</strong><br />
+                    Tersedia berbagai opsi kemasan dan kuantitas yang cocok untuk UMKM, horeca, hingga distributor nasional.
+                    <br /><br />
+
+                6.  <strong>Kemitraan Jangka Panjang</strong><br />
+                    Tim kami responsif dan proaktif, siap memberikan solusi bisnis serta dukungan berkelanjutan untuk pertumbuhan Anda.
               </Typography>
       </CardContent>
     </Card>
@@ -1149,20 +1170,28 @@ export const Home = () => {
         {/* Konten Kanan */}
         <Grid item xs={12} sm={5}>
           {/* Carousel untuk gambar produk */}
-          <Carousel autoplay speed={300} style={{ height: isDesktop ? '400px' : '400px', width: isDesktop ? '300px' : '500px', marginLeft: isDesktop ? 0 :  '-10px' }}>
+          <Carousel
+            autoplay
+            speed={300}
+            style={{
+              width: isDesktop ? 300 : 500, // lebar responsif
+              height: 400,                  // tinggi tetap
+              marginLeft: isDesktop ? 0 : -10
+            }}
+          >
             {/* Item pertama di dalam Carousel */}
-            <div>
+            <div style={{ width: "100%", height: "100%" }}>
               <Box 
                 sx={{ textAlign: 'center', marginTop: '20px', width: '300px' }}
               >
                 <img
                   src={IconAsam3}
-                  width={isDesktop ? 300 : 400}
-                  height={190}
+                  alt="Produk Asam Jawa"
                   style={{
-                    marginBottom: '20px',
-                    borderRadius: '10px',
-                    maxWidth: '100%',
+                    width: "100%",        // isi penuh kontainer
+                    height: "100%",
+                    objectFit: "contain", // jaga rasio, tidak “gepeng”
+                    borderRadius: 10
                   }}
                 />
                 <div 
@@ -1212,19 +1241,8 @@ export const Home = () => {
 
             {/* Item kedua di dalam Carousel */}
             <div>
-              <Box 
-                sx={{ textAlign: 'center', marginTop: '20px', width: '300px' }}
-              >
-                <img
-                  src={IconAsam2}
-                  width={300}
-                  height={190}
-                  style={{
-                    marginBottom: '20px',
-                    borderRadius: '10px',
-                    maxWidth: '100%',
-                  }}
-                />
+              <Box sx={{ textAlign: 'center', mt: 2, width: 300, height: 190 }}>
+                <img src={IconAsam2} alt="Asam Jawa 250 gr" style={productImgStyle} />
                 <div 
                   style={{ 
                     display: 'flex', 
@@ -1272,19 +1290,8 @@ export const Home = () => {
 
             {/* Item ketiga di dalam Carousel */}
             <div>
-              <Box 
-                sx={{ textAlign: 'center', marginTop: '20px', width: '300px' }}
-              >
-                <img
-                  src={IconAsam}
-                  width={300}
-                  height={190}
-                  style={{
-                    marginBottom: '20px',
-                    borderRadius: '10px',
-                    maxWidth: '100%',
-                  }}
-                />
+              <Box sx={{ textAlign: 'center', mt: 2, width: 300, height: 190 }}>
+                <img src={IconAsam} alt="Asam Jawa 250 gr" style={productImgStyle} />
                 <div 
                   style={{ 
                     display: 'flex', 

@@ -33,9 +33,99 @@ import gambar32 from '../image/image-artikel/2025-05-13.jpeg';
 import gambar33 from '../image/image-artikel/2025-05-14.jpg';
 import gambar34 from '../image/image-artikel/2025-05-15.jpg';
 import gambar35 from '../image/image-artikel/2025-05-16.jpg';
+import gambar36 from '../image/image-artikel/2025-05-23.jpg';
 
 const  dataArtikel = [
     {
+        "id": {
+            "nama": "Asam Jawa 75: Menyelamatkan Penyu, Warisan Laut",
+            "deskripsi": `Artikel ini mengungkap inisiatif unik pemanfaatan asam jawa untuk konservasi penyu di 75 lokasi penangkaran se-Indonesia. Ekstrak asam jawa terbukti efektif membersihkan cangkang penyu dari parasit tanpa efek samping, meningkatkan tingkat kelangsungan hidup tukik sebesar 35%.
+
+    Program ini merupakan kolaborasi antara petani asam jawa, LSM lingkungan, dan masyarakat pesisir. Setiap pembelian produk asam jawa khusus ini menyumbang langsung untuk perlindungan habitat penyu dan pendidikan lingkungan.`,
+            "image": gambar36,
+            "informasi": {
+                "manfaat_konservasi": `1) Bersihkan cangkang secara alami
+    2) Tingkatkan kelangsungan hidup tukik 35%
+    3) Kurangi penggunaan bahan kimia 100%
+    4) Dukung 75 lokasi konservasi
+    5) Edukasi 500+ masyarakat pesisir`,
+                "produk_unggulan": `1) Asam Jawa Konservasi Kemasan Khusus
+    2) Paket Adopsi Penyu + Asam Jawa
+    3) Kit Pembersih Cangkang Alami
+    4) Teh Asam Jawa Edisi Terbatas
+    5) Merchandise Kolaborasi Artistik`
+            },
+            "post": "Diposting pada 23/05/2025",
+            "kategori": "konservasi",
+            "referensi": "https://www.bigdaymart.com/2025/05/23/asam-jawa-75-menyelamatkan-penyu-warisan-laut/"
+        },
+        "en": {
+            "nama": "Tamarind 75: Saving Sea Turtles, Marine Heritage",
+            "deskripsi": `This article reveals a unique initiative using tamarind for sea turtle conservation across 75 breeding sites in Indonesia. Tamarind extract has proven effective in cleaning turtle shells from parasites without side effects, increasing hatchling survival rates by 35%.
+
+    This program is a collaboration between tamarind farmers, environmental NGOs, and coastal communities. Every purchase of this special tamarind product contributes directly to turtle habitat protection and environmental education.`,
+            "image": gambar36,
+            "informasi": {
+                "conservation_benefits": `1) Naturally clean shells
+    2) Increase hatchling survival by 35%
+    3) Reduce chemical use by 100%
+    4) Support 75 conservation sites
+    5) Educate 500+ coastal residents`,
+                "featured_products": `1) Conservation Tamarind Special Pack
+    2) Turtle Adoption + Tamarind Package
+    3) Natural Shell Cleaning Kit
+    4) Limited Edition Tamarind Tea
+    5) Artistic Collaboration Merchandise`
+            },
+            "post": "Posted on 05/23/2025",
+            "kategori": "conservation",
+            "referensi": "https://www.bigdaymart.com/2025/05/23/asam-jawa-75-menyelamatkan-penyu-warisan-laut/"
+        },
+        "ar": {
+            "nama": "تمر هندي 75: إنقاذ السلاحف، إرث البحر",
+            "deskripsi": `تكشف هذه المقالة عن مبادرة فريدة تستخدم التمر الهندي للحفاظ على السلاحف البحرية في 75 موقع تكاثر في إندونيسيا. ثبت أن مستخلص التمر الهندي فعال في تنظيف قواقع السلاحف من الطفيليات دون آثار جانبية، مما يزيد من معدل بقاء صغار السلاحف بنسبة 35٪.
+
+    هذا البرنامج هو تعاون بين مزارعي التمر الهندي والمنظمات غير الحكومية البيئية ومجتمعات السواحل. كل شراء لمنتج التمر الهندي هذا يساهم مباشرة في حماية موائل السلاحف والتوعية البيئية.`,
+            "image": gambar36,
+            "informasi": {
+                "conservation_benefits": `1) تنظيف القواقع بشكل طبيعي
+    2) زيادة بقاء الصغار بنسبة 35٪
+    3) تقليل استخدام المواد الكيميائية 100٪
+    4) دعم 75 موقعًا للحفظ
+    5) توعية 500+ من سكان السواحل`,
+                "featured_products": `1) تمر هندي الحفظ بعبوة خاصة
+    2) حزمة تبني سلحفاة + تمر هندي
+    3) مجموعة تنظيف القواقع الطبيعية
+    4) شاي تمر هندي إصدار محدود
+    5) منتجات تعاون فني`
+            },
+            "post": "نشر على 23/05/2025",
+            "kategori": "الحفظ",
+            "referensi": "https://www.bigdaymart.com/2025/05/23/asam-jawa-75-menyelamatkan-penyu-warisan-laut/"
+        },
+        "zh": {
+            "nama": "罗望子75：拯救海龟，海洋遗产",
+            "deskripsi": `本文揭示了一项利用罗望子在印尼75个繁殖地保护海龟的独特倡议。罗望子提取物已被证明能有效清洁龟壳寄生虫且无副作用，将幼龟存活率提高35%。
+
+    该项目是罗望子种植者、环保非政府组织和沿海社区之间的合作。每购买此特殊罗望子产品都直接贡献于海龟栖息地保护和环境教育。`,
+            "image": gambar36,
+            "informasi": {
+                "conservation_benefits": `1) 自然清洁龟壳
+    2) 幼龟存活率提高35%
+    3) 减少100%化学品使用
+    4) 支持75个保护地点
+    5) 教育500多名沿海居民`,
+                "featured_products": `1) 保护罗望子特别装
+    2) 海龟领养+罗望子套装
+    3) 天然龟壳清洁工具包
+    4) 限量版罗望子茶
+    5) 艺术合作周边产品`
+            },
+            "post": "发表于2025年5月23日",
+            "kategori": "保护",
+            "referensi": "https://www.bigdaymart.com/2025/05/23/asam-jawa-75-menyelamatkan-penyu-warisan-laut/"
+        }
+    }, {
         "id": {
             "nama": "Asam Jawa 150: Komoditas Terangi Cahaya Internasional",
             "deskripsi": `Artikel ini mengulas pencapaian ekspor asam jawa Indonesia yang menembus 150 negara, menjadikannya salah satu komoditas unggulan yang memperkuat citra Indonesia di kancah global. Varietas asam jawa gunung khusus ini telah mendapatkan sertifikasi internasional untuk kualitas dan keunikannya.
